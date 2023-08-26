@@ -1,17 +1,13 @@
 import React from 'react'
 import Slider from './Slider'
-import CategoriesRow from './CategoriesRow'
 
+//slider da bilet ala basınca detaya gönder
 const Header = () => {
 
   return (
-    <div className='container' >
+    <div  >
      <Slider></Slider>
-     <CategoriesRow></CategoriesRow>
-     <CategoriesRow></CategoriesRow>
-     <CategoriesRow></CategoriesRow>
-     
-     
+    
    </div>
   )
 }

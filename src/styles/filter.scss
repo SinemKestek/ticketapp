@@ -1,0 +1,38 @@
+.filterContainer{
+    background-color: rgb(13, 17, 24);
+    padding: 10px;
+    display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+   .form-select,.select-item{
+    height: 30px;
+    width: 210px;
+     margin-left: 19px;
+     padding: 0;
+   
+   }
+
+    .filter{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .title{
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color:rgba(228, 226, 225, 0.945);
+         
+        }
+    }
+ .btn{
+    width:  70px;
+  
+ }
+}
+@media screen and (max-width:992px){
+    .filterContainer{
+        display: none;
+    }
+}

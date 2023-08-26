@@ -16,11 +16,8 @@ const Layout = ({children}) => {
               <div className='search'>
                 <input type="text" placeholder='Mekan,etkinlik yada sanatçı arayın' />
               <BiSearch  className='searchBtn' size={20}></BiSearch>
-             
               </div>
-              <div className='filterMenu'><HiMiniAdjustmentsHorizontal size={24}/></div>
-           
-          
+              <div  className='filterMenu'><HiMiniAdjustmentsHorizontal size={24}/></div>
         </nav>
           {children}
 

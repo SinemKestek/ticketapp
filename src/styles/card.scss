@@ -1,28 +1,44 @@
 .categoriesWrapper{
-    background-color: rgba(139, 138, 138, 0.178);
+    background-color: rgba(138, 121, 121, 0.178);
     padding: 1rem 2rem;
-  .cardBanner{
+    margin-top: 18px;
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    text-align: center;
-    border-radius: 10px;
-
-    &:hover{
-        cursor: pointer;
-        background-color: rgba(14, 13, 13, 0.11);
+  
+      .categoriesCard{
+        height:auto ;
+        width: 186px;
+        background-color: rgba(4, 7, 7, 0.068);
+        padding: 8px;
+      margin: auto 4px;
         
-    }
-
-    .banner{
-        width: 100%;
-        height: 50%;
-        margin:9px auto;
-        overflow: hidden;
-        img{
-            width: 100%;
-            height: 100%;
+        .cardBanner{
+         
+           object-fit: contain;
+          
+           img{
+            max-width: 100%;
+            height: auto;
+            object-fit: cover;
+           }
+  
+      }
+        .categoryInf{
+          margin: 12px auto ;
         }
-    }
-  }
+         
+         &:hover{
+          cursor: pointer;
+         }
+
+
+      }
+
+       
+
+    
+ 
    
 
 }

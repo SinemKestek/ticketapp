@@ -2,12 +2,14 @@
     background-color: rgb(7, 5, 15);
     display: flex;
     justify-content: space-between;
-    padding:5px 20px ;
+    padding:5px;
     align-items: center;
     border-bottom: 3px solid goldenrod;
     color:#fff;
     font-size: 14px;
-  
+   .filterMenu{
+    cursor: pointer;
+   }
     img{
         height: auto;
         width: 90px;
@@ -60,13 +62,16 @@
         }
     }
 }
-@media screen and (min-width:576px) {    
+@media screen and (min-width:992px) {    
     .filterMenu{
+      
         display:none;
     }
    
 }
 @media screen and ( max-width:992px) {
+   
+
      .search{
         input{
             width: 80px;
