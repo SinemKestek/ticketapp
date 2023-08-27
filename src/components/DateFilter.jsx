@@ -6,7 +6,7 @@ const {RangePicker}=DatePicker
 
 const DateFilter= () => {
   return (
-    <div style={{margin:20}}>
+    <div >
    <RangePicker></RangePicker>
 
     </div>

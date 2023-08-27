@@ -44,7 +44,7 @@
 }
 .footerContainer{
     @extend .navbar-container;
-      justify-content: space-around;
+      justify-content: space-evenly;
     border: none;
     .socialIcons{
         display: flex;

@@ -42,16 +42,29 @@ const Layout = ({children}) => {
             </ul>
 
            </div>
+           <div className='footerLink'>
+            <span>Yardım Edelim</span>
+            <ul>
+                <li>Yardım/SSS</li>
+                <li>Etkinlik Katılım </li>
+                <li>Hesabım</li>
+            </ul>
 
-          <div className='socialIcons'>
+           </div>
+         
+
+        </div>
+        <div className='footerContainer'>
+        <p>Get Connected with us on social networks</p>
+        
+        <div className='socialIcons'>
           <div><FiInstagram size={20}></FiInstagram></div>
           <div><FiTwitter size={20}></FiTwitter></div>
           <div><FiFacebook size={20}></FiFacebook></div>
 
           </div>
-
-        </div>
-        <div className='footerContainer'><p>Get Connected with us on social networks</p> </div>
+        
+         </div>
           
      </footer>
     </>

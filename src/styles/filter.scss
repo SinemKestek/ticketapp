@@ -1,11 +1,11 @@
 .filterContainer{
     background-color: rgb(13, 17, 24);
-    padding: 10px;
+    height: 50px;
     display: flex;
    align-items: center;
    justify-content: space-evenly;
    .form-select,.select-item{
-    height: 30px;
+    height: 26px;
     width: 210px;
      margin-left: 19px;
      padding: 0;
@@ -16,7 +16,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-
+        margin: 20px;
         .title{
             justify-content: center;
             display: flex;

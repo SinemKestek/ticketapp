@@ -1,0 +1,1 @@
+//lokasyon,tarih,yer(mapsden),etkinlik fotoğrafları 
