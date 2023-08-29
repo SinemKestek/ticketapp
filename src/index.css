@@ -6,8 +6,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
- 
- 
+  text-decoration: none;
 }
 body {
   --bs-gutter-x:0
@@ -18,7 +17,7 @@ body {
   font-family: 'Raleway', sans-serif;
   font-family: 'Ubuntu', sans-serif;
   font-size: 1rem;
-  text-decoration: none;
+ 
 
 
 }

@@ -5,11 +5,14 @@ import {GoClock,GoShareAndroid} from 'react-icons/go'
 import {BiLogoWhatsapp,BiLogoInstagram} from 'react-icons/bi'
 import '../styles/detail.scss'
 import { Link } from 'react-router-dom'
+import Filter from '../components/FilterMenü'
+
  const DetailPage = () => {
   return (
     <>
+        <Filter></Filter>
   <div className='container my-5'>
-
+ 
     <div className='imgBanner detailContainer'>
     <div><h2>Aydınlık Evler</h2></div>
       <img src="https://imageprod.passo.com.tr/eventgroup/12032023151650-2.jpg" alt="" />

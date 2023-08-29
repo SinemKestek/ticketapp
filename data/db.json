@@ -1,0 +1,48 @@
+{
+    "posts":[
+        {
+            "category": "theatre",
+            "title":"Aydinlik Evler",
+             "location":"Maximum UNIQ",
+             "time":"30/08/23"
+          
+
+        },
+        {
+            "category": "theatre",
+            "title":"Aydinlik Evler",
+             "location":"Maximum UNIQ",
+             "time":"30/08/23"
+           
+
+
+        },
+        {
+            "category": "theatre",
+            "title":"Aydinlik Evler",
+             "location":"Maximum UNIQ",
+             "time":"30/08/23"
+           
+
+
+        },
+        {
+            "category": "theatre",
+            "title":"Aydinlik Evler",
+             "location":"Maximum UNIQ",
+             "time":"30/08/23"
+           
+
+
+        },
+        {
+            "category": "theatre",
+            "title":"Aydinlik Evler",
+             "location":"Maximum UNIQ",
+             "time":"30/08/23",
+             "aaaa":[{"type1":"385","type2":"476"}]
+
+
+        }
+    ]
+}
