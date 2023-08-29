@@ -34,7 +34,7 @@ const Slider = () => {
       </Carousel.Item>
       
       <Carousel.Item>
-        <img text="Third slide" className='slide' src='https://images.boboscope.com/541b136f-7ca3-4739-a92e-858e750a888b?alt=media&token=4a0dc2d7-eee1-454f-a716-3787c5bd6ef0&tr=w-1100,c-at_max,f-auto' />
+        <img text="Third slide" className='slide' src='https://ippasso.mediatriple.net/eventgroup/22082023222537-toz.jpg' />
         <Carousel.Caption>
           <h3>Third slide label</h3>
           <p>

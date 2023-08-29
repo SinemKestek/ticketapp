@@ -1,8 +1,8 @@
 .navbar-container{
-    background-color: rgb(7, 5, 15);
+    background-color: rgb(10, 4, 4);
     display: flex;
     justify-content: space-between;
-    padding:5px;
+    padding: 12px 20px;
     align-items: center;
     border-bottom: 3px solid goldenrod;
     color:#fff;
@@ -24,6 +24,7 @@
        input{
             outline: none;
            width: 240px;
+           min-width: 100px;
             height: 26px;
             border: none;
             border-radius: 2px;
@@ -46,6 +47,7 @@
     @extend .navbar-container;
       justify-content: space-evenly;
     border: none;
+ 
     .socialIcons{
         display: flex;
         div{
@@ -70,7 +72,8 @@
    
 }
 @media screen and ( max-width:992px) {
-   
+   *{
+    font-size: 14px;}
 
      .search{
         input{

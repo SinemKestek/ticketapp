@@ -3,11 +3,15 @@ import '../styles/filter.scss'
 import {HiOutlineEye,HiLocationMarker} from 'react-icons/hi'
 import {BsCalendarDate} from 'react-icons/bs'
 import DateFilter from './DateFilter'
+import {HiMiniAdjustmentsHorizontal} from 'react-icons/hi2'
 
 const Filter = () => {
   return (
-    <form className='filterContainer '>
-      
+
+    <>
+        <div  className='filterMenu bg-warning p-1'><HiMiniAdjustmentsHorizontal size={26}/></div>
+       <form className='filterContainer '>  
+    
       <div className='filter  '>
         <div className='title' >
         <HiOutlineEye size={19}></HiOutlineEye>
@@ -47,13 +51,13 @@ const Filter = () => {
       </div>
 
 
-       <div> <div className="btn btn-light">Ara</div></div> 
-
-
-
+       <div> <div className="btn btn-light filter">Ara</div></div> 
 
     </form>
+    </>
   )
+  
+ 
 }
 
 export default Filter

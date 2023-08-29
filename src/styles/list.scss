@@ -5,10 +5,11 @@ h3{
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;   
     padding: 0.4rem;
-    
+    background-color: rgba(33, 36, 36, 0.068);
+    border-bottom: 1px solid rgb(14, 12, 10);
+    margin-top: 12px;  
 }
 .listWrapper{
-
     display: grid;
     grid-template-columns:2fr 1fr 1fr ;
     grid-template-rows: 130px;
@@ -21,6 +22,10 @@ h3{
     cursor: pointer;
    }
    .eventInf{
+    img{
+        width: auto !important;
+    }
+    
     padding: 0.4rem 0.8rem;
     a{
         text-decoration: none;

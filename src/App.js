@@ -1,14 +1,11 @@
 
 import './styles/layout.scss';
-import Layout from './components/Layout';
-// import Home from './pages/Home';
-import ListPage from './pages/ListPage';
+import Router from './components/Router'
+
 function App() {
   return (
     <div className="App">
-    <Layout>
-      <ListPage></ListPage>
-    </Layout>
+  <Router></Router>
     </div>
   );
 }

@@ -1,20 +1,17 @@
 .categoriesWrapper{
-    background-color: rgba(138, 121, 121, 0.178);
-    padding: 1rem 2rem;
-    margin-top: 18px;
+    padding: 1.2rem 0.06rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-  
       .categoriesCard{
-        height:auto ;
+        min-height:60px ;
         width: 186px;
-        background-color: rgba(4, 7, 7, 0.068);
+        background-color: rgba(112, 112, 112, 0.137);
         padding: 8px;
-      margin: auto 4px;
+       margin: auto 4px;
         
         .cardBanner{
-         
+           position: relative;
            object-fit: contain;
           
            img{
@@ -22,10 +19,25 @@
             height: auto;
             object-fit: cover;
            }
+           .eventTime{
+            position: absolute;
+            bottom: 0;
+            right:0;
+            padding: 3px;
+            background-color:#fffefef6 ;
+            border-radius: 40px 0 0 40px;
+            border-left: 5px solid rgb(72, 97, 180);
+            border-bottom: 2px solid rgb(72, 97, 180) ;
+           
+          }
   
       }
         .categoryInf{
           margin: 12px auto ;
+          display: flex;
+          flex-direction: column;
+     
+       
         }
          
          &:hover{
@@ -34,11 +46,81 @@
 
 
       }
+  .allBtn{
+    align-self: flex-end;
+    padding: 8px;
+    border-radius: 20px;
+    margin-right: 45px;
+    background-color: rgb(206, 206, 199);
+    color: aliceblue;
+  }
+}
+.advContainer{
 
-       
+  .advBanner {
+    height: 150px;
+    position: relative;
+    text-align: center;
+    background-image: url("https://images.unsplash.com/photo-1576724196070-cf259e69503f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTl8MTY4Njc4NTV8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+    background-position: center;
+    object-fit: contain;
+  
+    .advBannerTitle{
+      background-color: rgba(36, 153, 255, 0.192);
+     height: 100%;
+     width: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    > p{
+      color: rgb(255, 255, 255);
+      font-style: italic;
+      font-weight: 500;
+      font-size: 19px;
 
     
- 
-   
+     }
+  
 
-}
+   }
+ }
+
+    
+  }
+
+  //eventCardCategory
+  .eventContainer{
+    height:auto ;
+    position: relative;
+    margin: 8px;
+    cursor: pointer;
+    max-width: 508px;
+    .categoryInf{
+      background-color: rgba(81, 81, 156, 0.411);
+      position: absolute;
+      bottom:0;
+      right: 10;
+      width: 100%;
+      height: 100%;
+      padding:12px;
+      &:hover{
+        background-color: transparent;
+      }
+    }
+
+    .cardBanner{
+      max-width: 489px;
+      object-fit: contain;
+       
+      img{
+       max-width: 100%;
+       height: auto;
+       object-fit: cover;
+    
+      }
+       
+    }
+   
+  }
