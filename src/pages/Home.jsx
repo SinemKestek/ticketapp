@@ -1,20 +1,23 @@
-import React from 'react'
+import React, { useContext, useEffect } from 'react'
 import Header from '../components/Header'
 import CategoriesRow from '../components/CategoriesRow'
 import Filter from '../components/FilterMenü'
 import EventCategory from '../components/EventCategory'
 import AdvEvent from '../components/AdvEvent'
+import { GlobalContext } from '../Context/GlobalState'
 
 const Home = () => {
+const {data}=useContext(GlobalContext)
 
 
   return (
     <>
      <Header/>
      <Filter></Filter>
-     <CategoriesRow/>
-     <AdvEvent></AdvEvent>
      <EventCategory/>
+     {/* <CategoriesRow/> */}
+     <AdvEvent></AdvEvent>
+  
     
     </>
   )
