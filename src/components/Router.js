@@ -4,6 +4,7 @@ import Footer from "./Footer"
 import Navbar from "./Navbar"
 import  Filter  from "../pages/Filter"
 import DetailPage from "../pages/DetailPage"
+import CategoryDetail from "../pages/CategoryDetail"
 export default function Router() {
     const Layout=()=>{
         return(
@@ -21,7 +22,7 @@ export default function Router() {
                     <Route path="/" element={<Home></Home>}/>
                     <Route path="/filter" element={<Filter/>}/>
                     <Route path="/detailPage" element={<DetailPage/>}></Route>
-                    
+                     <Route path="/categoryDetail/:categoryName" element={<CategoryDetail></CategoryDetail>}></Route>
                      </Route>
             </Routes>
             

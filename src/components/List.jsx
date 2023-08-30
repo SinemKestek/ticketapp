@@ -26,7 +26,7 @@ const List = () => {
      </div>
 <div className='container my-4 '>
 {
-  data.map((dt)=>{
+  data.map((dt)=>(
     <div className="listWrapper   ">
     <div className='eventInf '>
          <img src="https://i.pinimg.com/474x/05/e3/e1/05e3e13a9f248810c6afee5c7dbbe31e.jpg" alt=""  className='eventBanner' /> 
@@ -40,9 +40,9 @@ const List = () => {
         <a href=''>{dt.location}</a>
           <span>İstanbul</span>
     </div>
-    <div className='eventInf '>Paz,27/08/23</div>
+    <div className='eventInf '>{dt.time}</div>
     </div>
-  })
+  ))
 }
 
 
