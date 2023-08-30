@@ -10,7 +10,6 @@ const List = () => {
 
   useEffect(()=>{
  
-    console.log(data)
     data.map((dt)=>console.log(dt))
     
    })
