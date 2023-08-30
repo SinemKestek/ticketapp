@@ -1,19 +1,25 @@
 import React from 'react'
 
 import '../styles/card.scss'
-import { Navigate, useNavigate } from 'react-router-dom'
+import {  Link} from 'react-router-dom'
+import Filter from '../pages/Filter'
  //katewgoriye tıklayınca list sayfasına etkinlikleri listele
 const EventCart = ({data}) => {
-  const navigate=useNavigate()
-  const routePage=(e)=>{
-    console.log(e.target)
-  navigate("/Filter")
- }
+//   const navigate=useNavigate()
+ 
+//   const routePage=(e)=>{
+//     console.log(e.target)
+//   navigate("/`${}`")
+//   // navigate({
+//   //   pathname:/`${}`
+//   // })
+//  }
 
 
   return (
    
-  <div className='eventContainer  ' onClick={routePage}>
+  <Link to="CategoryDetail/`${data.tittle}`"> 
+  <div className='eventContainer  ' >
     <div className=' cardBanner' >
         <img src={data.img} alt="" />
     </div>
@@ -21,6 +27,8 @@ const EventCart = ({data}) => {
      <h5>{data.tittle}</h5>
   </div>
   </div>
+  </Link>
+
  
   )
 }
