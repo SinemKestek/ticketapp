@@ -6,6 +6,7 @@ import EventCategory from '../components/EventCategory'
 import AdvEvent from '../components/AdvEvent'
 import { GlobalContext } from '../Context/GlobalState'
 
+
 const Home = () => {
 const {data}=useContext(GlobalContext)
 
@@ -15,7 +16,8 @@ const {data}=useContext(GlobalContext)
      <Header/>
      <Filter></Filter>
      <EventCategory/>
-     {/* <CategoriesRow/> */}
+  
+     <CategoriesRow/>
      <AdvEvent></AdvEvent>
   
     

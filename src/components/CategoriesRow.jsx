@@ -17,7 +17,9 @@ const CategoriesRow = () => {
     <div className='categoriesCard col-2  '>
     <div className=' cardBanner' >
         <img src="https://upload.wikimedia.org/wikipedia/tr/9/90/39_Basamak_afi%C5%9F.jpg" alt="" />
-        <div className='eventTime' ><CiCalendarDate size={19}></CiCalendarDate><span className='small'> 22.09.2023</span></div>
+        <div className='eventTime' >
+    
+          <CiCalendarDate size={19}></CiCalendarDate><span className='small'> 22.09.2023</span></div>
     
     </div>
     <div className='categoryInf'>
