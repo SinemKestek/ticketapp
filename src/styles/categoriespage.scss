@@ -25,15 +25,16 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-   div:nth-child(3n-2){
-    width: 100%;
+  align-items:center ;
+
+   div:nth-child(2n-1){
+    width: 100% ;
     max-height: 310px;
    }
     .cardWrapper{
         width: 430px;
         position: relative; 
         margin: 12px 28px; 
-        
         overflow: hidden;
         .cardbanner{
             width: 100%;

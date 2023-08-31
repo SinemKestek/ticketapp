@@ -30,7 +30,7 @@ const handleSubmit=(e)=>{
     <div><Link to="/"><img src={logo} alt="" /></Link>  </div>
     <ul className='d-flex justify-content-center categoryMenü'>
     <li><Link to={"categoryDetail/Müzik"}>Müzik</Link></li>
-    <li><Link to={"categoryDetail/Tiyatro"}>Tiyatro</Link></li>
+    <li><Link to={"categoryDetail/theatre"}>Tiyatro</Link></li>
     <li><Link to={"categoryDetail/Sinema"}>Sinema</Link></li>
     <li><Link to={"categoryDetail/Bale&Dans"}>Bale&Dans</Link></li>
   </ul>

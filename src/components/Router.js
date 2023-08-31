@@ -21,8 +21,8 @@ export default function Router() {
                 <Route path="/" element={<Layout></Layout>}>
                     <Route path="/" element={<Home></Home>}/>
                     <Route path="/filter" element={<Filter/>}/>
-                    <Route path="/detailPage" element={<DetailPage/>}></Route>
                      <Route path="/categoryDetail/:categoryName" element={<CategoryDetail></CategoryDetail>}></Route>
+                     <Route path="/detailPage/:index" element={<DetailPage/>}/>
                      </Route>
             </Routes>
             

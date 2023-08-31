@@ -13,7 +13,7 @@ h3{
     display: grid;
     grid-template-columns:2fr 1fr 1fr ;
     grid-template-rows: 130px;
-
+   text-align: start;
    :first-child{
     display: flex;
    }
@@ -45,7 +45,7 @@ h3{
  .listWrapper,.list-menu{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;  
-    text-align: center;
+
  }
 
    *{

@@ -1,20 +1,27 @@
 //lokasyon(haritada gösterecek),tarih,etkinlik fotoğrafları tıklanan lokasyondaki etkinlikleri listele
 import React from 'react'
+import  { useContext} from 'react'
 import {IoLocationOutline,IoTodayOutline} from 'react-icons/io5'
 import {GoClock,GoShareAndroid} from 'react-icons/go'
 import {BiLogoWhatsapp,BiLogoInstagram} from 'react-icons/bi'
 import '../styles/detail.scss'
-import { Link } from 'react-router-dom'
+import { Link, useParams } from 'react-router-dom'
 import Filter from '../components/FilterMenü'
-
+import { GlobalContext } from '../Context/GlobalState'
  const DetailPage = () => {
-  return (
+    const {data}=useContext(GlobalContext)
+    const postId=useParams()
+    console.log(postId)
+
+  
+  
+
+    return (
     <>
-        <Filter></Filter>
+     <Filter></Filter>
   <div className='container my-5'>
- 
     <div className='imgBanner detailContainer'>
-    <div><h2>Aydınlık Evler</h2></div>
+    <div><h2>{data.title}</h2></div>
       <img src="https://imageprod.passo.com.tr/eventgroup/12032023151650-2.jpg" alt="" />
       <div className='d-flex detailInf'>
     <div>

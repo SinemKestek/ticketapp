@@ -1,13 +1,10 @@
 import  List  from '../components/List'
 
-const Filter = () => {
- 
-   
-
+const Filter = (index) => {
   return (
     <>
  
-       <List ></List>
+       <List  ></List>
   
    
     </>
