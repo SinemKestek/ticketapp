@@ -4,6 +4,7 @@ import Footer from "./Footer"
 import Navbar from "./Navbar"
 import  Filter  from "../pages/Filter"
 import DetailPage from "../pages/DetailPage"
+import Location from "../pages/Location"
 import CategoryDetail from "../pages/CategoryDetail"
 export default function Router() {
     const Layout=()=>{
@@ -23,6 +24,7 @@ export default function Router() {
                     <Route path="/filter" element={<Filter/>}/>
                      <Route path="/categoryDetail/:categoryName" element={<CategoryDetail></CategoryDetail>}></Route>
                      <Route path="/detailPage/:index" element={<DetailPage/>}/>
+                     <Route path="/location" element={<Location></Location>}></Route>
                      </Route>
             </Routes>
             

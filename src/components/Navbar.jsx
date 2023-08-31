@@ -29,10 +29,10 @@ const handleSubmit=(e)=>{
 <nav className='navbar-container'>
     <div><Link to="/"><img src={logo} alt="" /></Link>  </div>
     <ul className='d-flex justify-content-center categoryMenü'>
-    <li><Link to={"categoryDetail/Müzik"}>Müzik</Link></li>
-    <li><Link to={"categoryDetail/theatre"}>Tiyatro</Link></li>
-    <li><Link to={"categoryDetail/Sinema"}>Sinema</Link></li>
-    <li><Link to={"categoryDetail/Bale&Dans"}>Bale&Dans</Link></li>
+    <li><Link to={"categoryDetail/müzik"}>Müzik</Link></li>
+    <li><Link to={"categoryDetail/tiyatro"}>Tiyatro</Link></li>
+    <li><Link to={"categoryDetail/sinema"}>Sinema</Link></li>
+    <li><Link to={"categoryDetail/bale&dans"}>Bale&Dans</Link></li>
   </ul>
 
       <div className='search'>

@@ -1,14 +1,24 @@
 import React from 'react'
 import List from '../components/List'
-import LocationHeader from '../components/LocationHeader'
+import  { useContext} from 'react'
+import { GlobalContext } from '../Context/GlobalState'
+
+
 //tıklanan lokasyonda olan etkinlinler çıkacak
+//locasyonu başlık olarak alll
+//listedendetailPage routiing
 const Location = () => {
+
+
+  const {data}=useContext(GlobalContext)
+     
+
   return (
     <div>
-//seçilen konuma ait bir header koy
-  <LocationHeader></LocationHeader>
 
- // konumdaki etkinlikleri listele
+  {/* <LocationHeader></LocationHeader> */}
+
+
     <List></List>
 
 

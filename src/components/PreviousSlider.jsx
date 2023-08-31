@@ -40,8 +40,9 @@ const settings = {
       }
     ]
   };
-
-
+//  const tekKisi=data.filter((dt)=>dt.actors.lenght===1)
+//  console.log(data.actors)
+// console.log(tekKisi)
   return (
     <div className='p-4'>
        <h5 className='text-muted'>Kaçırılan Etkinlikler</h5>
@@ -51,7 +52,7 @@ const settings = {
 <div className="card my-4 mx-auto">
 
 <div className="card-top">
-    <img src="https://www.biletix.com/static/images/live/event/eventimages/cyrano_nmr.png" alt="" />
+    <img src={dt.img.banner} alt="" />
 <h5>{dt.title}</h5>
 </div>
 <div className="card-bottom">{dt.location}</div>

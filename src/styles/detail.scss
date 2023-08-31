@@ -1,28 +1,32 @@
 
 .detailContainer{
+    display:flex;
+     padding: 28px 20px;
+     align-items: start;
+     justify-content: center;
    img{
     max-height: 470px;
+    object-fit: contain;
    }
-    .detailInf{
-        // width: 100%;
-        background-color: rgba(190, 187, 187, 0.644);
-        justify-content: space-between;
-       
-       div{
-        padding: 0 4px;
-        display: flex;
-       align-items: center;
-      }
-  
-    }
 
 }
+.detailInf{
+    width: 100%;
+     background-color: rgba(190, 187, 187, 0.644);
+     justify-content: space-between;
+    
+    div{
+     padding: 0 4px;
+     display: flex;
+    align-items: center;
+   }}
 .ticket{
+    min-height: 80px;
     margin-top:12px ;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: aliceblue;
+    background-color: rgba(26, 36, 44, 0.123);
     border-left : 5px solid rgb(4, 4, 48);
     margin-bottom: 12px;
     &:hover{
@@ -43,4 +47,9 @@
    .s2{
     font-size: 16px;
     font-weight: 500;
+  }
+  @media screen and (max-width: 992px){
+    .detailContainer{
+        flex-wrap: wrap;
+    }
   }

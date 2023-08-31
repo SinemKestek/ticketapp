@@ -1,12 +1,13 @@
 {
     "posts":[
         {
-            "category": "theatre",
+            "category": "tiyatro",
             "title":"Aydinlik Evler",
              "location":"Maximum UNIQ",
              "city":"İSTANBUL",
-             "released":"30/08/23",
-             "rate":[{"type1":"385","type2":"420"}],
+             "date":"30/08/23",
+             "time":"20.00",
+             "rate":[{"Avantajlı":"385"},{"Standart":"420"},{"Öğrenci":"245"}],
               "sum":"Yaşamak, zemheriye ve yokluğa direnmek ve Amerikayla baş etmek üzerine dar gelirli ama zengin bir öykü… Burasi Aydinlikevler ve babaannem Amerikaya karşi!",
              "actors":["Demet Akbağ","Salih Bademci","Sinem Ünsal"],
              "img":{
@@ -15,12 +16,13 @@
              }
         },
         {
-            "category": "theatre",
+            "category": "tiyatro",
             "title":"Otomatik Portakal",
              "location":"Zorlu Performans Sanatlari",
              "city":"İSTANBUL",
-             "released":"30/08/23",
-             "rate":[{"type1":"385","type2":"420"}],
+             "date":"30/08/23",
+             "time":"19.00",
+             "rate":[{"Avantajlı":"385"},{"Standart":"420"},{"Öğrenci":"245"}],
              "sum":"Suç ve suçlunun tarihe karişacaği mükemmel insan modelini yaratmak adina insana dair hiçbir şeyin kalmadiği bir düzen düşünün.Özgür irade olmadiği zaman ahlaktan bahsetmek mümkün müdür?",
              "actors":["Derin Beşikçioğlu","Aleyna Tarhan","Ozan Akboyun"],
              "img":{
@@ -32,26 +34,28 @@
 
         },
         {
-            "category": "theatre",
+            "category": "tiyatro",
             "title":"Toz",
             "location":"Zorlu Performans Sanatlari",
              "city":"İSTANBUL",
-             "released":"11/09/23",
-             "rate":[{"type1":"385","type2":"420"}],
+             "date":"11/09/23",
+             "time":"22.00",
+             "rate":[{"Avantajlı":"385"},{"Standart":"420"},{"Öğrenci":"245"}],
              "sum":"Karşimiza yetişkin bir kadin olarak çikan Handan’la taniştiğimizda; o, çocukluğundan bugüne uzanan bir hikâyeye çoktan dalip gitmiş olacak. Handan’in ve onun hafizasindan çikip gelen annesi Feri’nin öyküsü, 1960’lardan bugüne uzanan bir anlatiya yerleşiyor. Murat Mahmutyazicioğlu’nun kaleminden çikan, çok kişiyle kesişen bu tek kişilik kadin oyunu, Hira Tekindor’un yönetiminde, Zerrin Tekindor’un performansiyla seyirciyle buluşacak.",
-             "actors":"Zerrin Tekindor",
+             "actors":["Zerrin Tekindor"],
              "img":{
                 "banner":"https://tiyatrolar.com.tr/files/activity/t/toz/gallery/18879/toz-18879.jpg",
                 "album":[{"1":"","2":"","3":""}]
               }
         },
         {
-            "category": "theatre",
+            "category": "tiyatro",
             "title":"Küheylan",
              "location":"Maximum UNIQ",
              "city":"İSTANBUL",
-             "time":"22/10/23",
-             "rate":[{"type1":"385","type2":"420"}],
+             "date":"22/10/23",
+             "time":"22.00",
+             "rate":[{"Avantajlı":"385"},{"Standart":"420"},{"Öğrenci":"245"}],
              "sum":"Var olan bir tutku yok edilebilir belki ama olmayan bir tutku ortaya çıkarılabilir mi? Normal nedir? Normali tasarlayan kim? Biz sadece toplumun tasarladığı bir birey miyiz? Toplum bizi neye göre tasarlar?",
              "actors":["Kerem Alışık","Devrim Nas","Emir Özden","Gizem Katmer"],
              "img":{
@@ -62,12 +66,13 @@
 
         },
         {
-            "category": "theatre",
+            "category": "tiyatro",
             "title":"Zengin Mutfağı",
              "location":"Harbiye Cemil Topuzlu Açık Hava Sahnesi",
              "city":"İSTANBUL",
-             "time":"24/09/23",
-             "rate":[{"type1":"385","type2":"476"}],
+             "date":"24/09/23",
+             "time":"18.00",
+             "rate":[{"Avantajlı":"385"},{"Standart":"420"},{"Öğrenci":"245"}],
              "sum":"Cumhuriyet tarihinde görülmüş en büyük işçi hareketi olan 15-16 Haziran 1970 olaylarının zengin bir ailenin mutfağına yansıması.Oyunda aşçı Lütfü Usta’yı canlandıran Şener Şen, 40 yıl aradan sonra aynı rolde ve genç bir oyuncu kadrosuyla tekrar sahnede.",
              "actors":["Şener Şen","Kutay Sandıkçı","Onay Kaya","Uğur Arda Başkan"],
              "img":{
@@ -76,12 +81,13 @@
 
         },
         {
-            "category": "theatre",
+            "category": "tiyatro",
             "title":"Cimri",
              "location":"Fişekhane",
              "city":"İSTANBUL",
-             "time":"10/09/23",
-             "rate":[{"type1":"385","type2":"476"}],
+             "date":"10/09/23",
+             "time":"21.00",
+             "rate":[{"Avantajlı":"385"},{"Standart":"420"},{"Öğrenci":"245"}],
              "sum":" Kimdir bu Cimri? Gerçekten de dedikleri kadar acımasız, katı yürekli, pinti ve kötü müdür? İnsan doğuştan mı böyle olur? Sadece yazılmış bir karakter midir? Etrafımızda var mıdır böyleleri? Nasıl bir şey olurdu böylesi bir insanla yaşamak?",
              "actors":["Serkan Keskin","Hakan Atalay","Sezin Bozacı"],
               "img":{
@@ -89,12 +95,13 @@
               }
         },
         {
-            "category": "theatre",
+            "category": "tiyatro",
             "title":"Kreutzer Sonat",
              "location":"Ara Sahne",
              "city":"İSTANBUL",
-             "time":"14/09/23",
-             "rate":[{"type1":"385","type2":"476"}],
+             "date":"14/09/23",
+             "time":"17.00",
+             "rate":[{"Avantajlı":"385"},{"Standart":"420"},{"Öğrenci":"245"}],
              "sum":"Karısının kendisini arkadaşı olan bir müzisyenle aldattığını düşünen Pozdnışev, bir kıskançlık krizine girerek karısını öldürür. Pozdnışev'in tek kişilik bir anlatı ile bütün evlilik sürecini gözden geçirdiği oyun müzik, kadın & erkek ilişkileri ve toplumun insan üzerindeki baskısını masaya yatırıyor.",
              "actors":["Kayhan Berkin"],
               "img":{
@@ -102,12 +109,13 @@
               }
         }, 
         {
-            "category": "theatre",
+            "category": "tiyatro",
             "title":"Cyrano",
              "location":"Ankara Oran Açık Hava Sahnesi",
              "city":"ANKARA",
-             "time":"04/09/23",
-             "rate":[{"type1":"385","type2":"476"}],
+             "date":"04/09/23",
+             "time":"19.00",
+             "rate":[{"Avantajlı":"385"},{"Standart":"420"},{"Öğrenci":"245"}],
              "sum":"Gerçek kahramanlar bilek gücüyle mi, yoksa söz gücüyle meydan okur hayata? Aşk için sadece kalp güzelliği yeter mi? İnsan akla mı aşık olur, bedene mi? Bunun gibi bir sürü soruyu kucağımıza atıp, alaycı bir nanikle sahneden inecek Cyrano.",
              "actors":["Mert Fırat","Ecem Çeşmicioğlu"],
               "img":{
@@ -115,12 +123,13 @@
               }
         },
         {
-            "category": "theatre",
+            "category": "tiyatro",
             "title":"Kum Zambakları",
              "location":"Zorlu Performans Sanatları",
              "city":"İSTANBUL",
-             "time":"20/09/23",
-             "rate":[{"type1":"385","type2":"476"}],
+             "date":"20/09/23",
+             "time":"20.00",
+             "rate":[{"Avantajlı":"385"},{"Standart":"420"},{"Öğrenci":"245"}],
              "sum":"Doğayı ve hayvanların doğal yaşamını yok eden insanlığın kendisiyle ve kadın erkek ilişkisi üzerinden birbiriyle olan çatışmasını   eğlenceli bir dille tartışmaya açıyor. Seyirciler aşk ve şiddet arasında duygusal git geller yaşayan ve  birbirini yok etmeye çalışan Duygu ve Fikret’in hayatının farklı evrelerine tanıklık ederken insanlığın doğayla olan ilişkini yeniden gözden geçirecek.",
              "actors":["Evrim Doğan","Umut Kurt"],
               "img":{
@@ -128,12 +137,13 @@
               }
         },
         {
-            "category": "theatre",
+            "category": "tiyatro",
             "title":"Richard",
              "location":"KüçükÇiftlik Park",
              "city":"İSTANBUL",
-             "time":"14/09/23",
-             "rate":[{"type1":"385","type2":"476"}],
+             "date":"14/09/23",
+             "time":"19.00",
+             "rate":[{"Avantajlı":"385"},{"Standart":"420"},{"Öğrenci":"245"}],
              "sum":"012 yılında İngiltere kralı III. Richard'ın kemikleri bir otoparkta bulunur. İskeletin adli tıp uzmanlarınca araştırılıp, kanıtlanması uzun bir zaman alacaktır.  Tam o sıralarda küçük bir tiyatro topluluğu ise Shakespeare’in en önemli eserlerinden III. Richard oyununun provalarını yapmaktadır. Olaylar, polis tarafından aranan birinin tiyatroya   sığınması ile rayından çıkar. Kendini Richard olarak tanıtan ve var olan düzene,   sanatın mevcut kurumsal, etik ve hiyerarşik yapısına karşı olan bu adam, önce III. Richard rolünü, daha sonra da yönetmen koltuğunu ele geçirir..",
              "actors":["Okan Bayülgen","Şenay Gürler","Ebru Unurtan","Nihal Usanmaz","Kevork Türker"],
               "img":{
@@ -141,12 +151,13 @@
               }
         },
         {
-            "category": "theatre",
+            "category": "tiyatro",
             "title":"Kibritin Ucunda",
              "location":"Zorlu Performans Sanatlari",
              "city":"İSTANBUL",
-             "time":"19/09/23",
-             "rate":[{"type1":"385","type2":"476"}],
+             "date":"19/09/23",
+             "time":"19.00",
+             "rate":[{"Avantajlı":"385"},{"Standart":"420"},{"Öğrenci":"245"}],
              "sum":"30’larının başında bir plaza çalışanı olan Kerem, başarı hırsının, çocukluğunun ve küçük bir felaket sonrası ziyarete gelen geçmişinin gölgesinde,  kendiyle uzun ve derin bir hesaplaşmaya girişir. Kafasının içinden gelen seslere engel olmaya bıraktığı o soğuk İstanbul akşamında tüm çocukluğu kar taneleri gibi yerlere dökülür. Kerem’in hayatı o gece bir kibritin ucunda….",
              "actors":["Rıza Kocağlu"],
               "img":{
@@ -154,12 +165,13 @@
               }
         },
         {
-            "category": "theatre",
+            "category": "tiyatro",
             "title":"Cırcır Böcekleri İtler ve Biz",
              "location":"Fişekhane",
              "city":"İSTANBUL",
-             "time":"21/10/23",
-             "rate":[{"type1":"385","type2":"476"}],
+             "date":"21/10/23",
+             "time":"19.00",
+             "rate":[{"Avantajlı":"385"},{"Standart":"420"},{"Öğrenci":"245"}],
              "sum":"İnsan kendi elleriyle kurduğu sistemin içinde ezilirken, kendi elleri ile bu tuzaktan kurtulmayı beceremez mi? Yoksa insanın kurduğu sistem, insandan daha akıllı davranıp onu beceriksizleştirdi mi?  Peki hangisi daha zor, kalmak mı gitmek mi?",
              "actors":["Serhat Teoman","Buğra Gülsoy","Ayşe Lebriz Berkem","Burak Sarımola"],
               "img":{
@@ -167,12 +179,13 @@
               }
         },
         {
-            "category": "theatre",
+            "category": "tiyatro",
             "title":"Amadeus",
              "location":"Antalya Açıkhava Tiyatrosu",
              "city":"ANTALYA",
-             "time":"25/09/23",
-             "rate":[{"type1":"385","type2":"476"}],
+             "date":"25/09/23",
+             "time":"19.00",
+             "rate":[{"Avantajlı":"385"},{"Standart":"420"},{"Öğrenci":"245"}],
              "sum":"üzik konusunda yüce bir yeteneğe sahip olan Mozart ile Salieri’nin ilişkisine odaklı bir başyapıt.   Sanat ile sanatçının kişiliği arasındaki ilişkiye odaklanan ve usta müzisyenin yaşamını, Salieri üzerinden anlatan bir klasik.",
              "actors":["Selçuk Yöntem","Tansu Biçer","Dilan Çiçek Deniz","Kevork Türker","Yiğit Pakmen"],
               "img":{
@@ -180,12 +193,13 @@
               }
         },
         {
-            "category": "theatre",
+            "category": "tiyatro",
             "title":"Bir Delinin Hatıra Defteri",
              "location":"Aktüel Açık Hava Sahnesi",
              "city":"ANTALYA",
-             "time":"04/09/23",
-             "rate":[{"type1":"385","type2":"476"}], 
+             "date":"04/09/23",
+             "time":"19.00",
+             "rate":[{"Avantajlı":"385"},{"Standart":"420"},{"Öğrenci":"245"}],
              "sum":" Aksenti ivanoviç Popçirinin baskıcı sistemde boyun eğmeme çabaları ve yaşadığı psikolojik gel-gitler kendisini İspanya Kralı sanmasına kadardevam eder ve akıl hastanesine kapatılmasıyla son bulur.",
              "actors":["Erdal Beşikçioğlu"],
               "img":{
@@ -193,12 +207,13 @@
               }
         },
         {
-            "category": "theatre",
+            "category": "tiyatro",
             "title":"Shirley Valentine",
              "location":"Bursa AOB",
              "city":"BURSA",
-             "time":"24/09/23",
-             "rate":[{"type1":"385","type2":"476"}],
+             "date":"24/09/23",
+             "time":"21.00",
+             "rate":[{"Avantajlı":"385"},{"Standart":"420"},{"Öğrenci":"245"}],
              "sum":"Günlük hayatının sıkıcılığı içinde kaybolmuş ve birçok kadın gibi artık hayallerini bile unutmuş olan Shirley Valentine’nin öyküsü... ",
              "actors":["Sumru Yavrucuk"],
               "img":{

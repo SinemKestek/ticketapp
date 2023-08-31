@@ -29,9 +29,9 @@ const List = () => {
   data.map((dt)=>(
     <div className="listWrapper   ">
     <div className='eventInf '>
-         <img src="https://i.pinimg.com/474x/05/e3/e1/05e3e13a9f248810c6afee5c7dbbe31e.jpg" alt=""  className='eventBanner' /> 
+         <img src={dt.img.banner} alt=""  className='eventBanner' /> 
          <div>
-        <h3>{dt.title}</h3>
+        <h5>{dt.title}</h5>
        <span className='small'>Satışta</span>
         </div>
       </div>
@@ -44,120 +44,6 @@ const List = () => {
     </div>
   ))
 }
-
-
-
-
-
-
-
-   {/* <div className="listWrapper  ">
-   <div className='eventInf '>
-        <img src="https://i.pinimg.com/474x/05/e3/e1/05e3e13a9f248810c6afee5c7dbbe31e.jpg" alt=""  className='eventBanner' /> 
-        <div>
-       <h3>Zengin Mutfağı</h3>
-      <span>Satışta</span>
-       </div>
-     </div>
-     
-   <div className='eventInf  '>
-       <p>Zorlu Performans Sanatları</p>
-         <span>İstanbul</span>
-   </div>
-   <div className='eventInf  '>Paz,27/08/23</div>
-   </div>
-   <div className="listWrapper  ">
-   <div className='eventInf '>
-        <img src="https://i.pinimg.com/474x/05/e3/e1/05e3e13a9f248810c6afee5c7dbbe31e.jpg" alt=""  className='eventBanner' /> 
-        <div>
-       <h3>Zengin Mutfağı</h3>
-      <span>Satışta</span>
-       </div>
-     </div>
-     
-   <div className='eventInf  '>
-       <p>Zorlu Performans Sanatları</p>
-         <span>İstanbul</span>
-   </div>
-   <div className='eventInf  '>Paz,27/08/23</div> 
-  
-   </div>
-   <div className="listWrapper  ">
-   <div className='eventInf '>
-        <img src="https://i.pinimg.com/474x/05/e3/e1/05e3e13a9f248810c6afee5c7dbbe31e.jpg" alt=""  className='eventBanner' /> 
-        <div>
-       <h3>Zengin Mutfağı</h3>
-      <span>Satışta</span>
-       </div>
-     </div>
-     
-   <div className='eventInf  '>
-       <p>Zorlu Performans Sanatları</p>
-         <span>İstanbul</span>
-   </div>
-   <div className='eventInf  '>Paz,27/08/23</div>
-   </div>
-   <div className="listWrapper  ">
-   <div className='eventInf '>
-        <img src="https://i.pinimg.com/474x/05/e3/e1/05e3e13a9f248810c6afee5c7dbbe31e.jpg" alt=""  className='eventBanner' /> 
-        <div>
-       <h3>Zengin Mutfağı</h3>
-      <span>Satışta</span>
-       </div>
-     </div>
-     
-   <div className='eventInf  '>
-       <p>Zorlu Performans Sanatları</p>
-         <span>İstanbul</span>
-   </div>
-   <div className='eventInf  '>Paz,27/08/23</div>
-   </div>
-   <div className="listWrapper  ">
-   <div className='eventInf '>
-        <img src="https://i.pinimg.com/474x/05/e3/e1/05e3e13a9f248810c6afee5c7dbbe31e.jpg" alt=""  className='eventBanner' /> 
-        <div>
-       <h3>Zengin Mutfağı</h3>
-      <span>Satışta</span>
-       </div>
-     </div>
-     
-   <div className='eventInf  '>
-       <p>Zorlu Performans Sanatları</p>
-         <span>İstanbul</span>
-   </div>
-   <div className='eventInf  '>Paz,27/08/23</div>
-   </div>
-   <div className="listWrapper  ">
-   <div className='eventInf '>
-        <img src="https://i.pinimg.com/474x/05/e3/e1/05e3e13a9f248810c6afee5c7dbbe31e.jpg" alt=""  className='eventBanner' /> 
-        <div>
-       <h3>Zengin Mutfağı</h3>
-      <span>Satışta</span>
-       </div>
-     </div>
-     
-   <div className='eventInf  '>
-       <p>Zorlu Performans Sanatları</p>
-         <span>İstanbul</span>
-   </div>
-   <div className='eventInf  '>Paz,27/08/23</div>
-   </div>
-   <div className="listWrapper  ">
-   <div className='eventInf '>
-        <img src="https://i.pinimg.com/474x/05/e3/e1/05e3e13a9f248810c6afee5c7dbbe31e.jpg" alt=""  className='eventBanner' /> 
-        <div>
-       <h3>Zengin Mutfağı</h3>
-      <span>Satışta</span>
-       </div>
-     </div>
-     
-   <div className='eventInf  '>
-       <p>Zorlu Performans Sanatları</p>
-         <span>İstanbul</span>
-   </div>
-   <div className='eventInf  '>Paz,27/08/23</div>
-   </div> */}
-
 </div>
 
        

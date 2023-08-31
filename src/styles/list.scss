@@ -5,7 +5,7 @@ h3{
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;   
     padding: 0.4rem;
-    background-color: rgba(33, 36, 36, 0.068);
+    background-color: rgba(117, 117, 117, 0.137);
     border-bottom: 1px solid rgb(14, 12, 10);
     margin-top: 12px;  
 }
@@ -22,8 +22,11 @@ h3{
     cursor: pointer;
    }
    .eventInf{
+   background-color: rgba(188, 187, 192, 0.185);
     img{
-        width: auto !important;
+        max-width:150px  !important;
+        height: auto;
+        margin:5px 12px;
     }
     
     padding: 0.4rem 0.8rem;

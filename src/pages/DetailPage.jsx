@@ -10,108 +10,122 @@ import Filter from '../components/FilterMenü'
 import { GlobalContext } from '../Context/GlobalState'
  const DetailPage = () => {
     const {data}=useContext(GlobalContext)
-    const postId=useParams()
-    console.log(postId)
 
-  
-  
-
+    
+    const { index } = useParams();
+    console.log(data[index]);
+    const event = data && data[index]; // Check if data[index] is defined
+    if (!event) {
+      // Handle the case when the event is not found
+      return <div>Event not found</div>; }
     return (
-    <>
+       <>
      <Filter></Filter>
-  <div className='container my-5'>
-    <div className='imgBanner detailContainer'>
-    <div><h2>{data.title}</h2></div>
-      <img src="https://imageprod.passo.com.tr/eventgroup/12032023151650-2.jpg" alt="" />
-      <div className='d-flex detailInf'>
-    <div>
-    <div><IoTodayOutline size={16}></IoTodayOutline> 22.14.2023</div>  
-    <div> <GoClock size={16}></GoClock> 20.00</div>
-    <div><Link><IoLocationOutline size={16}></IoLocationOutline>Turkcell Vadi,İstanbul </Link></div>
+<div className="container my-5">
+<div className='d-block'>
+      <h2>{data[index]?.title}</h2>
+      <div className="d-flex detailInf">
+      <div>
+        <div>
+          <IoTodayOutline size={16}></IoTodayOutline>{data[index]?.date}
+        </div>
+        <div>
+        {data[index]?.time}
+          <GoClock size={16}></GoClock> 
+        </div>
+        <div>
+          <Link to="/location">
+            <IoLocationOutline size={16}></IoLocationOutline>
+            {data[index]?.location}
+          </Link>
+        </div>
+      </div>
+      <div class="dropdown dropend shareBtn  ">
+        <button
+          type="button"
+          class="btn dropdown-toggle"
+          data-bs-toggle="dropdown"
+        >
+          <GoShareAndroid size={16} />
+        </button>
+        <ul class="dropdown-menu">
+          <li>
+            <Link class="dropdown-item disabled">Etkinliği Paylaş</Link>
+          </li>
+          <li>
+            <Link class="dropdown-item active">
+          
+              <BiLogoWhatsapp size={14} />
+              Whatsapp
+            </Link>
+          </li>
+          <li>
+            <Link class="dropdown-item ">
+        
+              <BiLogoInstagram size={14} />
+              Instagram
+            </Link>
+          </li>
+        </ul>
+      </div>
     </div>
-    <div class="dropdown dropend shareBtn  ">
-    <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown">
-     <GoShareAndroid size={16}/>
-    </button>
-    <ul class="dropdown-menu">
-      <li><Link class="dropdown-item disabled" >Etkinliği Paylaş</Link></li>
-      <li><Link class="dropdown-item active" > <BiLogoWhatsapp size={14}/>Whatsapp</Link></li>
-      <li><Link class="dropdown-item "> <BiLogoInstagram size={14}/>Instagram</Link></li>
-    </ul>
-     </div>
     </div>
-    </div>
-
-    <div className="my-4 p-2 ">
-    <h3>Etkinlik Detayları</h3>
-    <div><span className="s2"> Özet:</span><span>Yaşamak, zemheriye ve yokluğa direnmek ve Amerika’yla baş etmek üzerine dar gelirli ama zengin bir öykü…
-    Burası Aydınlıkevler ve babaannem Amerika’ya karşı!!!</span></div>
-    <span className='s2'>Oyuncular:</span> <span>Salih Bademci</span>,<span>Demet Akbağ</span> <span>Sinem Ünsal</span> 
-    <div>
-    <span className='s2'> Yazan:</span> Yılmaz Erdoğan <br />
-     <span className='s2'>Yöneten:</span> Serdar Biliş
-     </div>
-    
-    
-     </div>
+{data && (
+  <div className="imgBanner detailContainer">
    
+  
+
+   
+
+    <img src={data[index]?.img?.banner} alt="" />
+    <div className="my-4 p-2 ">
+          <h3>Etkinlik Detayları</h3>
+          <div>
+            <span className="s2"> Özet:</span><span>{data[index]?.sum} </span>
+          </div>
+          <div className="s2  ">Oyuncular:
+          {event.actors?.map((actor)=>
+          ( <span className='d-inline-block mx-1 '>{actor}</span>))}
+         </div> 
+        </div>
+
+
+
+
+  </div>
+)}
  
-      <div className="ticket">
-        <div>22 Eylül</div>
-        <div><GoClock size={15}></GoClock> 22.00
-          <p>KuruÇeşmeArena</p>
+
+        <div className="ticket">
+          <div>{data[index]?.date}</div>
+          <div> <GoClock size={15}></GoClock> {data[index]?.time}</div>
+          <div>
+            <p> <Link >{data[index]?.location}</Link> </p>
+          </div>
+
+          <div class="dropdown">
+            <button
+              type="button"
+              class="btn dropdown-toggle"
+              data-bs-toggle="dropdown"
+            >
+              Bilet Al
+            </button>
+            <ul class="dropdown-menu">
+              {event.rate?.map((item) => (
+                <li key={item}>
+                  <a class="dropdown-item" href="#">
+                    {Object.keys(item)} : {Object.values(item)}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+      
+  
+
         </div>
 
-        <div class="dropdown">
-  <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown">
-   Bilet Al
-  </button>
-  <ul class="dropdown-menu">
-    <li><a class="dropdown-item" href="#">Avantajlı :350</a></li>
-    <li><a class="dropdown-item" href="#">Standart:575</a></li>
-    <li><a class="dropdown-item" href="#">Öğrenci:280</a></li>
-  </ul>
-</div>
-
-      </div>
-      <div className="ticket">
-        <div>22 eylül</div>
-        <div>22.00
-          <p>KuruÇeşmeArena</p>
-        
-        </div>
-
-        <div class="dropdown">
-  <button type="button" class="btn btn-sm dropdown-toggle" data-bs-toggle="dropdown">
-   Bilet Al
-  </button>
-  <ul class="dropdown-menu">
-    <li><a class="dropdown-item" href="#">Avantajlı :350</a></li>
-    <li><a class="dropdown-item" href="#">Standart:575</a></li>
-    <li><a class="dropdown-item" href="#">Öğrenci:280</a></li>
-  </ul>
-</div>
-
-      </div>
-      <div className="ticket">
-        <div>22 eylül</div>
-        <div>22.00
-          <p>KuruÇeşmeArena</p>
-        
-        </div>
-
-        <div class="dropdown">
-  <button type="button" class="btn btn-sm dropdown-toggle" data-bs-toggle="dropdown">
-   Bilet Al
-  </button>
-  <ul class="dropdown-menu">
-    <li><a class="dropdown-item" href="#">Avantajlı :350</a></li>
-    <li><a class="dropdown-item" href="#">Standart:575</a></li>
-    <li><a class="dropdown-item" href="#">Öğrenci:280</a></li>
-  </ul>
-</div>
-
-      </div>
 
       <div className="notice">
        <h2>Etkinlik Kuralları</h2>

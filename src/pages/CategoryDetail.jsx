@@ -36,7 +36,7 @@ import { GlobalContext } from '../Context/GlobalState'
 </div>
 
 
-          </Link>
+     </Link>
 
   )) }
      </div>
