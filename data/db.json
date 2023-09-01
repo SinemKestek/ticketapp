@@ -1,237 +1,762 @@
 {
-    "posts":[
-        {    "id":"1",
-            "category": "tiyatro",
-            "title":"Aydinlik Evler",
-             "location":"Maximum UNIQ",
-             "city":"İSTANBUL",
-             "date":"30/08/23",
-             "time":"20.00",
-             "rate":[{"Avantajlı":"385"},{"Standart":"420"},{"Öğrenci":"245"}],
-              "sum":"Yaşamak, zemheriye ve yokluğa direnmek ve Amerikayla baş etmek üzerine dar gelirli ama zengin bir öykü… Burasi Aydinlikevler ve babaannem Amerikaya karşi!",
-             "actors":["Demet Akbağ","Salih Bademci","Sinem Ünsal"],
-             "img":{
-                "banner":"https://imageprod.passo.com.tr/eventgroup/12032023151650-2.jpg",
-                "album":[{"1":"","2":"","3":"","4":""}]
-             }
-        },
-        {        "id":"2",
-            "category": "tiyatro",
-            "title":"Otomatik Portakal",
-             "location":"Zorlu Performans Sanatlari",
-             "city":"İSTANBUL",
-             "date":"30/08/23",
-             "time":"19.00",
-             "rate":[{"Avantajlı":"385"},{"Standart":"420"},{"Öğrenci":"245"}],
-             "sum":"Suç ve suçlunun tarihe karişacaği mükemmel insan modelini yaratmak adina insana dair hiçbir şeyin kalmadiği bir düzen düşünün.Özgür irade olmadiği zaman ahlaktan bahsetmek mümkün müdür?",
-             "actors":["Derin Beşikçioğlu","Aleyna Tarhan","Ozan Akboyun"],
-             "img":{
-                "banner":"https://tiyatrolar.com.tr/files/activity/o/otomatik-portakal-1/gallery/24882/otomatik-portakal-1-24882.jpg",
-                "album":[{"1":"","2":"","3":""}]
-             }
-             
+  "posts": [
+    {
+      "id": "1",
+      "category": "tiyatro",
+      "title": "Aydinlik Evler",
+      "location": "Maximum UNIQ",
+      "city": "İSTANBUL",
+      "date": "30/08/23",
+      "time": "20.00",
+      "rate": [
+        { "Avantajlı": "385" },
+        { "Standart": "420" },
+        { "Öğrenci": "245" }
+      ],
+      "sum": "Yaşamak, zemheriye ve yokluğa direnmek ve Amerikayla baş etmek üzerine dar gelirli ama zengin bir öykü… Burasi Aydinlikevler ve babaannem Amerikaya karşi!",
+      "actors": ["Demet Akbağ", "Salih Bademci", "Sinem Ünsal"],
+      "img": {
+        "banner": "https://imageprod.passo.com.tr/eventgroup/12032023151650-2.jpg",
+        "album": [{ "1": "", "2": "", "3": "", "4": "" }]
+      }
+    },
+    {
+      "id": "2",
+      "category": "tiyatro",
+      "title": "Otomatik Portakal",
+      "location": "Zorlu Performans Sanatlari",
+      "city": "İSTANBUL",
+      "date": "30/08/23",
+      "time": "19.00",
+      "rate": [
+        { "Avantajlı": "385" },
+        { "Standart": "420" },
+        { "Öğrenci": "245" }
+      ],
+      "sum": "Suç ve suçlunun tarihe karişacaği mükemmel insan modelini yaratmak adina insana dair hiçbir şeyin kalmadiği bir düzen düşünün.Özgür irade olmadiği zaman ahlaktan bahsetmek mümkün müdür?",
+      "actors": ["Derin Beşikçioğlu", "Aleyna Tarhan", "Ozan Akboyun"],
+      "img": {
+        "banner": "https://tiyatrolar.com.tr/files/activity/o/otomatik-portakal-1/gallery/24882/otomatik-portakal-1-24882.jpg",
+        "album": [{ "1": "", "2": "", "3": "" }]
+      }
+    },
+    {
+      "id": "3",
+      "category": "tiyatro",
+      "title": "Toz",
+      "location": "Zorlu Performans Sanatlari",
+      "city": "İSTANBUL",
+      "date": "11/09/23",
+      "time": "22.00",
+      "rate": [
+        { "Avantajlı": "385" },
+        { "Standart": "420" },
+        { "Öğrenci": "245" }
+      ],
+      "sum": "Karşimiza yetişkin bir kadin olarak çikan Handan’la taniştiğimizda; o, çocukluğundan bugüne uzanan bir hikâyeye çoktan dalip gitmiş olacak. Handan’in ve onun hafizasindan çikip gelen annesi Feri’nin öyküsü, 1960’lardan bugüne uzanan bir anlatiya yerleşiyor. Murat Mahmutyazicioğlu’nun kaleminden çikan, çok kişiyle kesişen bu tek kişilik kadin oyunu, Hira Tekindor’un yönetiminde, Zerrin Tekindor’un performansiyla seyirciyle buluşacak.",
+      "actors": ["Zerrin Tekindor"],
+      "img": {
+        "banner": "https://tiyatrolar.com.tr/files/activity/t/toz/gallery/18879/toz-18879.jpg",
+        "album": [{ "1": "", "2": "", "3": "" }]
+      }
+    },
+    {
+      "id": "4",
+      "category": "tiyatro",
+      "title": "Küheylan",
+      "location": "Maximum UNIQ",
+      "city": "İSTANBUL",
+      "date": "22/10/23",
+      "time": "22.00",
+      "rate": [
+        { "Avantajlı": "385" },
+        { "Standart": "420" },
+        { "Öğrenci": "245" }
+      ],
+      "sum": "Var olan bir tutku yok edilebilir belki ama olmayan bir tutku ortaya çıkarılabilir mi? Normal nedir? Normali tasarlayan kim? Biz sadece toplumun tasarladığı bir birey miyiz? Toplum bizi neye göre tasarlar?",
+      "actors": ["Kerem Alışık", "Devrim Nas", "Emir Özden", "Gizem Katmer"],
+      "img": {
+        "banner": "https://www.biletix.com/static/images/live/event/eventimages/kuheylan_914_504.jpg"
+      }
+    },
+    {
+      "id": "5",
+      "category": "tiyatro",
+      "title": "Zengin Mutfağı",
+      "location": "Harbiye Cemil Topuzlu Açık Hava Sahnesi",
+      "city": "İSTANBUL",
+      "date": "24/09/23",
+      "time": "18.00",
+      "rate": [
+        { "Avantajlı": "385" },
+        { "Standart": "420" },
+        { "Öğrenci": "245" }
+      ],
+      "sum": "Cumhuriyet tarihinde görülmüş en büyük işçi hareketi olan 15-16 Haziran 1970 olaylarının zengin bir ailenin mutfağına yansıması.Oyunda aşçı Lütfü Usta’yı canlandıran Şener Şen, 40 yıl aradan sonra aynı rolde ve genç bir oyuncu kadrosuyla tekrar sahnede.",
+      "actors": [
+        "Şener Şen",
+        "Kutay Sandıkçı",
+        "Onay Kaya",
+        "Uğur Arda Başkan"
+      ],
+      "img": {
+        "banner": "https://tiyatrolar.com.tr/files/activity/z/zengin-mutfagi-1/gallery/13109/zengin-mutfagi-1-13109.jpg"
+      }
+    },
+    {
+      "id": "6",
+      "category": "tiyatro",
+      "title": "Cimri",
+      "location": "Fişekhane",
+      "city": "İSTANBUL",
+      "date": "10/09/23",
+      "time": "21.00",
+      "rate": [
+        { "Avantajlı": "385" },
+        { "Standart": "420" },
+        { "Öğrenci": "245" }
+      ],
+      "sum": " Kimdir bu Cimri? Gerçekten de dedikleri kadar acımasız, katı yürekli, pinti ve kötü müdür? İnsan doğuştan mı böyle olur? Sadece yazılmış bir karakter midir? Etrafımızda var mıdır böyleleri? Nasıl bir şey olurdu böylesi bir insanla yaşamak?",
+      "actors": ["Serkan Keskin", "Hakan Atalay", "Sezin Bozacı"],
+      "img": {
+        "banner": "https://tiyatrolar.com.tr/files/activity/c/cimri5/gallery/2482/cimri5-2482.jpg"
+      }
+    },
+    {
+      "id": "7",
+      "category": "tiyatro",
+      "title": "Kreutzer Sonat",
+      "location": "Ara Sahne",
+      "city": "İSTANBUL",
+      "date": "14/09/23",
+      "time": "17.00",
+      "rate": [
+        { "Avantajlı": "385" },
+        { "Standart": "420" },
+        { "Öğrenci": "245" }
+      ],
+      "sum": "Karısının kendisini arkadaşı olan bir müzisyenle aldattığını düşünen Pozdnışev, bir kıskançlık krizine girerek karısını öldürür. Pozdnışev'in tek kişilik bir anlatı ile bütün evlilik sürecini gözden geçirdiği oyun müzik, kadın & erkek ilişkileri ve toplumun insan üzerindeki baskısını masaya yatırıyor.",
+      "actors": ["Kayhan Berkin"],
+      "img": {
+        "banner": "https://tiyatrolar.com.tr/files/activity/k/kreutzer-sonat/gallery/16599/kreutzer-sonat-16599.jpg"
+      }
+    },
+    {
+      "id": "8",
+      "category": "tiyatro",
+      "title": "Cyrano",
+      "location": "Ankara Oran Açık Hava Sahnesi",
+      "city": "ANKARA",
+      "date": "04/09/23",
+      "time": "19.00",
+      "rate": [
+        { "Avantajlı": "385" },
+        { "Standart": "420" },
+        { "Öğrenci": "245" }
+      ],
+      "sum": "Gerçek kahramanlar bilek gücüyle mi, yoksa söz gücüyle meydan okur hayata? Aşk için sadece kalp güzelliği yeter mi? İnsan akla mı aşık olur, bedene mi? Bunun gibi bir sürü soruyu kucağımıza atıp, alaycı bir nanikle sahneden inecek Cyrano.",
+      "actors": ["Mert Fırat", "Ecem Çeşmicioğlu"],
+      "img": {
+        "banner": "https://www.biletix.com/static/images/live/event/eventimages/cyrano_nmr.png"
+      }
+    },
+    {
+      "id": "9",
+      "category": "tiyatro",
+      "title": "Kum Zambakları",
+      "location": "Zorlu Performans Sanatları",
+      "city": "İSTANBUL",
+      "date": "20/09/23",
+      "time": "20.00",
+      "rate": [
+        { "Avantajlı": "385" },
+        { "Standart": "420" },
+        { "Öğrenci": "245" }
+      ],
+      "sum": "Doğayı ve hayvanların doğal yaşamını yok eden insanlığın kendisiyle ve kadın erkek ilişkisi üzerinden birbiriyle olan çatışmasını   eğlenceli bir dille tartışmaya açıyor. Seyirciler aşk ve şiddet arasında duygusal git geller yaşayan ve  birbirini yok etmeye çalışan Duygu ve Fikret’in hayatının farklı evrelerine tanıklık ederken insanlığın doğayla olan ilişkini yeniden gözden geçirecek.",
+      "actors": ["Evrim Doğan", "Umut Kurt"],
+      "img": {
+        "banner": "https://www.zorlupsm.com/medium/Activity/Image/efade03b-3358-47fb-8590-a4bab45d6aa8"
+      }
+    },
+    {
+      "id": "10",
+      "category": "tiyatro",
+      "title": "Richard",
+      "location": "KüçükÇiftlik Park",
+      "city": "İSTANBUL",
+      "date": "14/09/23",
+      "time": "19.00",
+      "rate": [
+        { "Avantajlı": "385" },
+        { "Standart": "420" },
+        { "Öğrenci": "245" }
+      ],
+      "sum": "012 yılında İngiltere kralı III. Richard'ın kemikleri bir otoparkta bulunur. İskeletin adli tıp uzmanlarınca araştırılıp, kanıtlanması uzun bir zaman alacaktır.  Tam o sıralarda küçük bir tiyatro topluluğu ise Shakespeare’in en önemli eserlerinden III. Richard oyununun provalarını yapmaktadır. Olaylar, polis tarafından aranan birinin tiyatroya   sığınması ile rayından çıkar. Kendini Richard olarak tanıtan ve var olan düzene,   sanatın mevcut kurumsal, etik ve hiyerarşik yapısına karşı olan bu adam, önce III. Richard rolünü, daha sonra da yönetmen koltuğunu ele geçirir..",
+      "actors": [
+        "Okan Bayülgen",
+        "Şenay Gürler",
+        "Ebru Unurtan",
+        "Nihal Usanmaz",
+        "Kevork Türker"
+      ],
+      "img": {
+        "banner": "https://tiyatrolar.com.tr/files/activity/r/richard/gallery/22500/richard-22500.jpg"
+      }
+    },
+    {
+      "id": "11",
+      "category": "tiyatro",
+      "title": "Kibritin Ucunda",
+      "location": "Zorlu Performans Sanatlari",
+      "city": "İSTANBUL",
+      "date": "19/09/23",
+      "time": "19.00",
+      "rate": [
+        { "Avantajlı": "385" },
+        { "Standart": "420" },
+        { "Öğrenci": "245" }
+      ],
+      "sum": "30’larının başında bir plaza çalışanı olan Kerem, başarı hırsının, çocukluğunun ve küçük bir felaket sonrası ziyarete gelen geçmişinin gölgesinde,  kendiyle uzun ve derin bir hesaplaşmaya girişir. Kafasının içinden gelen seslere engel olmaya bıraktığı o soğuk İstanbul akşamında tüm çocukluğu kar taneleri gibi yerlere dökülür. Kerem’in hayatı o gece bir kibritin ucunda….",
+      "actors": ["Rıza Kocağlu"],
+      "img": {
+        "banner": "https://tiyatrolar.com.tr/files/activity/k/kibritin-ucunda/gallery/23440/kibritin-ucunda-23440.jpg"
+      }
+    },
+    {
+      "id": "12",
+      "category": "tiyatro",
+      "title": "Cırcır Böcekleri İtler ve Biz",
+      "location": "Fişekhane",
+      "city": "İSTANBUL",
+      "date": "21/10/23",
+      "time": "19.00",
+      "rate": [
+        { "Avantajlı": "385" },
+        { "Standart": "420" },
+        { "Öğrenci": "245" }
+      ],
+      "sum": "İnsan kendi elleriyle kurduğu sistemin içinde ezilirken, kendi elleri ile bu tuzaktan kurtulmayı beceremez mi? Yoksa insanın kurduğu sistem, insandan daha akıllı davranıp onu beceriksizleştirdi mi?  Peki hangisi daha zor, kalmak mı gitmek mi?",
+      "actors": [
+        "Serhat Teoman",
+        "Buğra Gülsoy",
+        "Ayşe Lebriz Berkem",
+        "Burak Sarımola"
+      ],
+      "img": {
+        "banner": "https://tiyatrolar.com.tr/files/activity/y/yasamaya-dair/gallery/1527/yasamaya-dair-1527.jpg"
+      }
+    },
+    {
+      "id": "13",
+      "category": "tiyatro",
+      "title": "Amadeus",
+      "location": "Antalya Açıkhava Tiyatrosu",
+      "city": "ANTALYA",
+      "date": "25/09/23",
+      "time": "19.00",
+      "rate": [
+        { "Avantajlı": "385" },
+        { "Standart": "420" },
+        { "Öğrenci": "245" }
+      ],
+      "sum": "üzik konusunda yüce bir yeteneğe sahip olan Mozart ile Salieri’nin ilişkisine odaklı bir başyapıt.   Sanat ile sanatçının kişiliği arasındaki ilişkiye odaklanan ve usta müzisyenin yaşamını, Salieri üzerinden anlatan bir klasik.",
+      "actors": [
+        "Selçuk Yöntem",
+        "Tansu Biçer",
+        "Dilan Çiçek Deniz",
+        "Kevork Türker",
+        "Yiğit Pakmen"
+      ],
+      "img": {
+        "banner": "https://tiyatrolar.com.tr/files/activity/a/amadeus-2/gallery/22171/amadeus-2-22171.jpg"
+      }
+    },
+    {
+      "id": "14",
+      "category": "tiyatro",
+      "title": "Bir Delinin Hatıra Defteri",
+      "location": "Aktüel Açık Hava Sahnesi",
+      "city": "ANTALYA",
+      "date": "04/09/23",
+      "time": "19.00",
+      "rate": [
+        { "Avantajlı": "385" },
+        { "Standart": "420" },
+        { "Öğrenci": "245" }
+      ],
+      "sum": " Aksenti ivanoviç Popçirinin baskıcı sistemde boyun eğmeme çabaları ve yaşadığı psikolojik gel-gitler kendisini İspanya Kralı sanmasına kadardevam eder ve akıl hastanesine kapatılmasıyla son bulur.",
+      "actors": ["Erdal Beşikçioğlu"],
+      "img": {
+        "banner": "https://tiyatrolar.com.tr/files/activity/b/bir-delinin-hatira-defteri3/gallery/995/bir-delinin-hatira-defteri3-995.jpg"
+      }
+    },
+    {
+      "id": "15",
+      "category": "tiyatro",
+      "title": "Shirley Valentine",
+      "location": "Bursa AOB",
+      "city": "BURSA",
+      "date": "24/09/23",
+      "time": "21.00",
+      "rate": [
+        { "Avantajlı": "385" },
+        { "Standart": "420" },
+        { "Öğrenci": "245" }
+      ],
+      "sum": "Günlük hayatının sıkıcılığı içinde kaybolmuş ve birçok kadın gibi artık hayallerini bile unutmuş olan Shirley Valentine’nin öyküsü... ",
+      "actors": ["Sumru Yavrucuk"],
+      "img": {
+        "banner": "https://tiyatrolar.com.tr/files/activity/s/shirley-valentine-1/gallery/20107/shirley-valentine-1-20107.jpg"
+      }
+    },
+    {
+      "id": "16",
+      "category": "tiyatro",
+      "title": "Memleket Meselesi",
+      "location": "Adana Büyükşehir Belediyesi",
+      "city": "ADANA",
+      "date": "07/09/23",
+      "time": "20.00",
+      "rate": [
+        { "Avantajlı": "200" },
+        { "Standart": "280" },
+        { "Öğrenci": "145" }
+      ],
+      "sum": "Aziz Nesin bugün hayatta olsa, kendi gözünden memleketin bugünkü durumuna dair düşünceleri ve duyguları izleyici ile paylaşılacak. “Neye niyet ettiğini unutan memleketler, kısmetlerine düşenlerden şikayet etmemelidir” anlayışı ile Haluk Işık tarafından kaleme alınan oyunu, Murat Atak yönetmekte olup Türkiye ‘nin usta tiyatro sanatçıları yorumlamakta.Mevzu Ciddi! Damağınızda birazcık memleket bırakma umuduyla… ",
+      "actors": [
+        "Şahap Sayılgan",
+        "Koray Ergun",
+        "M. Şekip Taşpınar",
+        "Suat Ülhan"
+      ],
+      "img": {
+        "banner": "https://ippasso.mediatriple.net/event/28082023122738-aziz.jpg"
+      }
+    },
+    {
+      "id": "16",
+      "category": "tiyatro",
+      "title": "Korkuyu Beklerken",
+      "location": "KTÜ Akademi Salonu",
+      "city": "TRABZON",
+      "date": "24/09/23",
+      "time": "21.00",
+      "rate": [
+        { "Avantajlı": "385" },
+        { "Standart": "420" },
+        { "Öğrenci": "245" }
+      ],
+      "sum": "Zaman zaman bir rehber olarak kullanmaya çalıştığımız Tutunamayanlar'da, Oğuz Atay bu türün (disconnectus erectus) tanımı için şöyle demiş; Erkekleri, yalnız bırakıldıkları zaman acıklı sesler çıkarırlar. Dişilerini de aynı sesle çağırırlar. Genellikle terkedilmiş yuvalarda yaşarlar. Belirli bir aile düzenleri yoktur. Doğumdan sonra ana, baba ve yavrular ayrı yerlere giderler. Toplu olarak yaşamayı bilmezler ve dış tehlikelere karşı birleştikleri görülmemiştir. Belirli bir beslenme düzenleri yoktur. Başka hayvanlarla birlikte yaşarken onların getirdikleri yiyeceklerle geçinirler. Kendi başlarına kaldıkları zaman genellikle yemek yemeyi unuturlar. Bütün huyları taklit esasına dayandığı için, başka hayvanların yemek yediklerini görmezlerse, acıktıklarını anlamazlar. İçgüdüleri tam gelişmemiştir. Kendilerini korumayı bilmezler. Fakat -yine taklitçikleri nedeniyle- başka hayvanların dövüşmesine özenerek kavgaya girdikleri olur. Şimdiye kadar hiçbir tutunamayanın bir kavgada başka bir hayvanı yendiği görülmemiştir. ",
+      "actors": ["Doğukan ULUDAĞ"],
+      "img": {
+        "banner": "https://ippasso.mediatriple.net/event/11072023094649-korkuyu-beklerken-passo-bilet.jpg"
+      }
+    },
+    {
+      "id": "17",
+      "category": "tiyatro",
+      "title": "Fahrenheit 451",
+      "location": "KTÜ Akademi Salonu",
+      "city": "Trabzon",
+      "date": "24/09/23",
+      "time": "22.00",
+      "rate": [
+        { "Avantajlı": "385" },
+        { "Standart": "420" },
+        { "Öğrenci": "245" }
+      ],
+      "sum": "zulanan ve hayal edilen ütopik toplum modelinin anti-tezi niteliğindeki “distopya” kavramı; gelecekte ya da kurgusal bir evrende geçen, özgürlüğün reddedildiği, bunaltıcı ve baskıcı birideolojinin düzen adına yol açtığı korkuyu, acıyı, güvensizliği ve mutsuzluğu anlatır.İnsan psikolojisinden başlayarak toplum düzenine yayılan bu denetlenemez kâbusta, kurtuluş mümkün olsa bile onu gerçekleştirmek her zaman mümkün müdür?‘Fahrenheit 451’; Bradbury’nin distopyası değil, açık seçik bizim dünyamızdır, kendi tarihimiz.Zaman ise belirsiz değil, daima bu zamandır.Şimdi sor kendine, kitap kağıtlarını tutuşturmayı sağlayan bir sıcaklık derecesi, düşünceyi ortadan kaldırmaya yeter mi?",
+      "actors": [
+        "Erdal Beşikçioğlu",
+        "Elvin Beşikçioğlu",
+        "Ünsal Coşar",
+        "Selin Zafertepe"
+      ],
+      "img": {
+        "banner": "https://ippasso.mediatriple.net/event/20082023004931-451faaaa.jpg"
+      }
+    },
+    {
+      "id": "18",
+      "category": "Müzik",
+      "title": "Evrencan Gündüz",
+      "location": "Kemerburgaz Kent Ormanı",
+      "city": "İSTANBUL",
+      "date": "24/09/23",
+      "time": "17.00",
+      "rate": [
+        { "Avantajlı": "385" },
+        { "Standart": "420" },
+        { "Öğrenci": "245" }
+      ],
+      "sum": "Evrencan Gündüz,  3 Eylül'de YBY Woods Yaşam ve Etkinlik Alanı'nda sizlerle...",
+      "actors": [""],
+      "img": {
+        "banner": "https://ippasso.mediatriple.net/event/07082023113720-8.png"
+      }
+    },
+    {
+      "id": "19",
+      "category": "Müzik",
+      "title": "Evrencan Gündüz",
+      "location": "Tarla Alaçatı",
+      "city": "İZMİR",
+      "date": "08/09/23",
+      "time": "22.00",
+      "rate": [
+        { "Avantajlı": "285" },
+        { "Standart": "520" },
+        { "Öğrenci": "225" }
+      ],
+      "sum": "İsimlerini bir Turgut Uyar şiirinden alan grup 2008 yılında kuruldu. Hem şarkıları hem de stilleriyle kısa sürede şehir efsanesine dönüştüler. “Ay Şuram Ağrıyo” konserlerini Ay Şuram Hâlâ Ağrıyo ismiyle albüme dönüştürmelerinin ardından, ilk resmi albümleri Full Faça’yı 2012’de yayımladılar. 2016’da şekilli mi şekilli yeni tarzları Fırtınayt ile elektronik dünyanın kapılarını ardına kadar araladılar. Bu kapıdan, 2017’de aynı isimli ikinci albümleri geçti. Sahne enerjileri, ellerinin değdiği her platformda takipçileriyle kurdukları samimi ilişki ve şarkılarıyla bizi bizden almaya devam ediyorlar.",
+      "actors": [""],
+      "img": {
+        "banner": "https://ippasso.mediatriple.net/event/09082023103749-tarlada-konser-buyuk-ev-ablukada-akustik-bileti-tarla-alacati-izmir-passo.jpg"
+      }
+    },
+    {
+      "id": "20",
+      "category": "Müzik",
+      "title": "Tamino",
+      "location": "ODTÜ Vişnelik Tesisi",
+      "city": "ANKARA",
+      "date": "08/09/23",
+      "time": "22.00",
+      "rate": [
+        { "Avantajlı": "285" },
+        { "Standart": "520" },
+        { "Öğrenci": "225" }
+      ],
+      "sum": "Mısır’ın en ünlü şarkıcılarından ve film yıldızlarından Muharrem Fouad’ın torunu olan Tamino, yine sınır tanımadığı ve zamansızlığa aday bu albümde kendi aile tarihçesi ile Ortadoğu ve Avrupa’nın folk ve rock müzik gelenekleri arasında seyahat ediyor.",
+      "actors": [""],
+      "img": {
+        "banner": "https://ippasso.mediatriple.net/event/17072023101937-tamino.jpg"
+      }
+    },
+    {
+      "id": "21",
+      "category": "Müzik",
+      "title": "Jakuzi",
+      "location": "Blind",
+      "city": "İSTANBUL",
+      "date": "08/09/23",
+      "time": "22.00",
+      "rate": [
+        { "Avantajlı": "185" },
+        { "Standart": "220" },
+        { "Öğrenci": "155" }
+      ],
+      "sum": "Jakuzi Blind sahnesinde.",
+      "actors": [""],
+      "img": {
+        "banner": "https://ippasso.mediatriple.net/event/23082023102240-jak.png"
+      }
+    },
+    {
+      "id": "22",
+      "category": "Müzik",
+      "title": "Mor ve Ötesi",
+      "location": "KüçükÇiftlik Park",
+      "city": "İSTANBUL",
+      "date": "17/09/23",
+      "time": "19.30",
+      "rate": [
+        { "Avantajlı": "400" },
+        { "Standart": "500" },
+        { "Öğrenci": "300" }
+      ],
+      "sum": "1995’te kurulan ve 30 yıla yakın bir zamandır, Bir Derdim Var, Cambaz, Oyunbozan, Uyan gibi Türkiye’nin müzik tarihine damga vuran şarkılara imza atan mor ve ötesi, vokalde Harun Tekin, gitarda Kerem Özyeğen, basgitarda Burak Güven ve davulda Kerem Kabadayı’dan oluşuyor. 1996’dan bu yana Şehir, Bırak Zaman Aksın, Gül Kendine, Dünya Yalan Söylüyor, Büyük Düşler, Başıbozuk, Masumiyetin Ziyan Olmaz, Güneşi Beklerken adlı stüdyo albümlerini yayımlayan grubun 10 yıl aradan sonra gelen albümü Sirenler ise 2022 yılı başında sevenleriyle buluştu. Yıllar içinde konser ve derleme albümleriyle teklilerini de dinleyiciyle paylaşan mor ve ötesi, 2008 Eurovision Şarkı Yarışması’nda ise ülkemizi, sözü ve müziği kendilerine ait Deli adlı Türkçe şarkıyla temsil etti.",
+      "actors": [""],
+      "img": {
+        "banner": "https://ippasso.mediatriple.net/event/17072023163616-mvoo.jpg"
+      }
+    },
+    {
+      "id": "23",
+      "category": "Müzik",
+      "title": " Kerem Görsev Trio",
+      "location": "Zorlu Performans Sanatları",
+      "city": "İSTANBUL",
+      "date": "17/09/23",
+      "time": "19.30",
+      "rate": [{ "Avantajlı": "400" }, { "Standart": "500" }],
+      "sum": "1995 senesinden günümüze kadar 18 albüm kaydı yapan sanatçı, trio için düzenlediği bestelerinden, filarmoni orkestrası aranjmanlarına kadar akustik jazz müziğinin farklı formatlarını dinleyenleri ile paylaşan Kerem Görsev, New York, St Petersburg, Londra, Los Angeles ve İstanbul’da yaptığı kayıtlar, ülkemizde caz müziğinin geniş bir dinleyici topluluğuna ulaşmasını mümkün kıldı.Yurt dışında Pescera, Vilnius, Umbria , Bishkek Jazz ve Marciac Jazz festivali gibi prestijli sahnelerde performans veren Kerem Görsev, ülkemizde de yoğun bir konser programı dahilinde çalışmalarını sürdürmekte. Ünlü müzik televizyonu Mezzo TV kayıtları için bir performans veren Kerem Görsev Trio, uluslararası eleştirmenler tarafından da büyük beğeni kazandı ve Avrupa’da da önemli sahnelerde performans gösterdi.",
+      "actors": [""],
+      "img": {
+        "banner": "https://ippasso.mediatriple.net/event/22112022100326-kgt_1920x1080_psso.png"
+      }
+    },
+    {
+      "id": "24",
+      "category": "Müzik",
+      "title": "Kenan Dogulu",
+      "location": "Bursa Kültürpark Açıkhava Tiyatrosu",
+      "city": "BURSA",
+      "date": "21/10/23",
+      "time": "22.30",
+      "rate": [{ "Avantajlı": "1.260" }, { "Standart": "1.550" }],
+      "sum": "Kenan Doğulu, KerkiSolfej organizasyonu ile sevilen şarkılarını sizlerle buluşturmaya hazırlanıyor.",
+      "actors": [""],
+      "img": {
+        "banner": "https://ippasso.mediatriple.net/event/21072023160832-kenan.jpg"
+      }
+    },
+    {
+      "id": "25",
+      "category": "Müzik",
+      "title": "Nessi Gomes",
+      "location": "Zorlu Performans Sanatları",
+      "city": "İSTANBUL",
+      "date": "11/11/23",
+      "time": "22.30",
+      "rate": [{ "Avantajlı": "560" }, { "Standart": "750" }],
+      "sum": "Kendine özgü müzikal tarzı ve unutulmaz şarkıları ile adından sıkça söz ettiren Nessi Gomes, müziğinde farklı tınılar ve etkileyici melodiler kullanarak dikkat çeken bir tarza sahip.Sadece akustik gitar ve vokaliyle bile dinleyicilerine büyülü bir atmosfer sunabilen Gomes, müziğini hafızalara kazıyan mistik ve etkileyici unsurlarla yoğunlaştırıyor. Kendine özgü tarzı, caz, fado ve dünya müziği gibi farklı türlerin birleşiminden oluşuyor.",
+      "actors": [""],
+      "img": {
+        "banner": "https://ippasso.mediatriple.net/event/07082023120134-nessi_gomes_passo.jpg"
+      }
+    },
+    {
+      "id": "26",
+      "category": "Müzik",
+      "title": "Adamlar",
+      "location": "Zorlu Performans Sanatları",
+      "city": "İSTANBUL",
+      "date": "11/11/23",
+      "time": "22.30",
+      "rate": [{ "Avantajlı": "160" }, { "Standart": "250" }],
+      "sum": "Adamlar, Tolga Akdoğan (vokal ve elektrik gitar), Berkan Tilavel (davul), Gürhan Öğütücü (elektrik gitar) ve Berat İşçioğlu (bas gitar)'dan oluşuyor. Sözlerin ve bestelerin mucidi ise Tolga Akdoğan.Şarkılar hayata dair her konuda güçlü, derin, yoğun ve ironik sözlere sahipler. Teatral bir dramanın içinden şaka yapar gibiler… Umutsuz değiller, aksine insanı dirilmeye, inanca zorluyorlar… ",
+      "actors": [""],
+      "img": {
+        "banner": "https://ippasso.mediatriple.net/event/28082023172930-psm_s10_adamlar_passo.jpg"
+      }
+    },
+    {
+      "id": "27",
+      "category": "Müzik",
+      "title": "Pomme",
+      "location": "Zorlu Performans Sanatları",
+      "city": "İSTANBUL",
+      "date": "11/11/23",
+      "time": "22.30",
+      "rate": [{ "Avantajlı": "160" }, { "Standart": "250" }],
+      "sum": "Müziğinde folk, pop ve akustik unsurları ustalıkla harmanlayarak kendi sesini oluşturan Pomme, şarkıları sıklıkla içtenlik, aşk, doğa ve kadınlık gibi temaları ele alıyor. Şarkılarının derinlikli sözleri ve dokunaklı melodileri, dinleyicilere duygusal bir deneyim sunuyor.En cavale EP'si, Pomme'un müzikal yeteneklerini gözler önüne seren bir başlangıç oldu. EP, kısa sürede Fransız müzik sahnesinde dikkatleri üzerine çekti ve geniş bir hayran kitlesi oluşturdu. Ardından 2019 yılında ilk stüdyo albümü À peu près çıkaran Pomme, büyük bir çıkış yaparak müzik eleştirmenlerinden de olumlu yorumlar aldı.",
+      "actors": [""],
+      "img": {
+        "banner": "https://ippasso.mediatriple.net/event/19072023102206-pomme_1920x1080_passo.jpg"
+      }
+    },
+    {
+      "id": "28",
+      "category": "Müzik",
+      "title": "Altın Gün",
+      "location": "Zorlu Performans Sanatları",
+      "city": "İSTANBUL",
+      "date": "29/10/23",
+      "time": "21.30",
+      "rate": [{ "Avantajlı": "495" }, { "Standart": "650" }],
+      "sum": "Amsterdam merkezli Altın Gün, geçmişi ve bugünü birleştirerek muhteşem ve neşeli bir pop müziği yapma konusunda güçlü bir üne sahip oldu, bunun en güzel örneği Grammy adayı olan ikinci albümleri Gece ile görülmüştür. Yol, üç yılda üçüncü albümleri olma özelliğini taşıyor ve bir dizi sürpriz sesi ortaya koyuyor.",
+      "actors": [""],
+      "img": {
+        "banner": "https://ippasso.mediatriple.net/event/27072023145028-psm_s11_altin_gun_passo.jpg"
+      }
+    },
+    {
+      "id": "29",
+      "category": "Müzik",
+      "title": "Imany",
+      "location": "Turkcell Vadi",
+      "city": "İSTANBUL",
+      "date": "07/09/23",
+      "time": "21.30",
+      "rate": [{ "Avantajlı": "1.295" }, { "Standart": "1.650" }],
+      "sum": "İlk albümü “Shape of a Broken Heart” ile üç ülkede platin plak ödülü kazanarak geniş bir hayran kitlesi edinen, “You Will Never Know” ve “Don’t Be Shy” single’ları ile dünya çapında üne kavuşan Imany, şarkılarında aşkın yanısıra, kadın hakları, iklim değişikliği gibi gibi birçok konuda sevenlerinin sesi oluyor ve adeta bir hikaye anlatıcısı olarak günümüz dünyasını şarkılarıyla anlatıyor.",
+      "actors": [""],
+      "img": {
+        "banner": "https://ippasso.mediatriple.net/event/20062023134937-imany_piu_20062023.jpg"
+      }
+    },
+    {
+      "id": "30",
+      "category": "Müzik",
+      "title": "Kenan Dogulu",
+      "location": "Çukurova Üniversitesi Açıkhava Tiyatrosu",
+      "city": "ADANA",
+      "date": "07/09/23",
+      "time": "21.30",
+      "rate": [
+        { "Avantajlı": "1.295" },
+        { "Standart": "1.650" },
+        { "Ögrenci": "855" }
+      ],
+      "sum": "Kenan Doğulu, KerkiSolfej organizasyonu ile sevilen şarkılarını sizlerle buluşturmaya hazırlanıyor.",
+      "img": {
+        "banner": "https://ippasso.mediatriple.net/event/22082023130457-kenan.jpg"
+      }
+    },
+    {
+      "id": "31",
+      "category": "Müzik",
+      "title": "Sertab Erener",
+      "location": "Maximum UNIQ ",
+      "city": "İSTANBUL",
+      "date": "07/09/23",
+      "time": "21.30",
+      "rate": [
+        { "Avantajlı": "1.295" },
+        { "Standart": "1.650" },
+        { "Öğrenci": "855" }
+      ],
+      "sum": "Türk müziğinin yıldız sanatçısı Sertab Erener, Bkm yaz etkinlikleri kapsamında, son albümü ‘Ben Yaşarım’ ve geçmişten günümüze gelen sevilen şarkılarını Bkm organizasyonu ile 20 Eylül’de Maximum Uniq Açıkhava’da söyleyecek.",
+      "img": {
+        "banner": "https://ippasso.mediatriple.net/event/06062023105700-sertab_bkm_uniq.jpg"
+      }
+    },
+    {
+      "id": "32",
+      "category": "Müzik",
+      "title": "Resa Saffa Park",
+      "location": "IF Performance Hall ",
+      "city": "ANKARA",
+      "date": "07/09/23",
+      "time": "21.30",
+      "rate": [{ "Avantajlı": "295" }, { "Standart": "650" }],
+      "sum": "İskandinav şarkıcı Resa Saffa sevenleriyle IF'de buluşuyor..",
+      "img": {
+        "banner": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/1ddec57d0cdf4b419cde2d1ec23ec4fb.jpg"
+      }
+    },
+    {
+      "id": "33",
+      "category": "Sinema",
+      "title": " Lord of the Rings Gecesi",
+      "location": "Kadıköy Sineması ",
+      "city": "İSTANBUL",
+      "date": "07/09/23",
+      "time": "23.30",
+      "rate": [{ "Avantajlı": "295" }, { "Standart": "650" }],
+      "sum": "Lord of the Ring Serisi, extended versiyonlarıyla Kadıköy Sineması'nda! The Fellowship of the Ring (Yüzük Kardeşliği),  The Two Towers (İki Kule),  The Return of the King (Kralın Dönüşü) serinin tüm filmleri tek gecede..",
 
+      "img": {
+        "banner": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/ef9c1b57ae7f4b2c9f649edeb837d3cc.jpeg"
+      }
+    },
+    {
+      "id": "34",
+      "category": "Sinema",
+      "title": " Her Sey Her Yerde Aynı Anda",
+      "location": "Kadıköy Sineması ",
+      "city": "İSTANBUL",
+      "date": "07/09/23",
+      "time": "23.30",
+      "rate": [{ "Avantajlı": "95" }, { "Standart": "130" }],
+      "sum": "Her Şey Her Yerde Aynı Anda, eşsiz zaman kavramı ve farklı hikayelerin paralel akışıyla izleyiciyi sürükleyen, düşündüren ve etkileyici bir sinema deneyimi sunuyor.",
 
-        },
-        {
-          "id":"3",
-            "category": "tiyatro",
-            "title":"Toz",
-            "location":"Zorlu Performans Sanatlari",
-             "city":"İSTANBUL",
-             "date":"11/09/23",
-             "time":"22.00",
-             "rate":[{"Avantajlı":"385"},{"Standart":"420"},{"Öğrenci":"245"}],
-             "sum":"Karşimiza yetişkin bir kadin olarak çikan Handan’la taniştiğimizda; o, çocukluğundan bugüne uzanan bir hikâyeye çoktan dalip gitmiş olacak. Handan’in ve onun hafizasindan çikip gelen annesi Feri’nin öyküsü, 1960’lardan bugüne uzanan bir anlatiya yerleşiyor. Murat Mahmutyazicioğlu’nun kaleminden çikan, çok kişiyle kesişen bu tek kişilik kadin oyunu, Hira Tekindor’un yönetiminde, Zerrin Tekindor’un performansiyla seyirciyle buluşacak.",
-             "actors":["Zerrin Tekindor"],
-             "img":{
-                "banner":"https://tiyatrolar.com.tr/files/activity/t/toz/gallery/18879/toz-18879.jpg",
-                "album":[{"1":"","2":"","3":""}]
-              }
-        },
-        { 
-          "id":"4",
-            "category": "tiyatro",
-            "title":"Küheylan",
-             "location":"Maximum UNIQ",
-             "city":"İSTANBUL",
-             "date":"22/10/23",
-             "time":"22.00",
-             "rate":[{"Avantajlı":"385"},{"Standart":"420"},{"Öğrenci":"245"}],
-             "sum":"Var olan bir tutku yok edilebilir belki ama olmayan bir tutku ortaya çıkarılabilir mi? Normal nedir? Normali tasarlayan kim? Biz sadece toplumun tasarladığı bir birey miyiz? Toplum bizi neye göre tasarlar?",
-             "actors":["Kerem Alışık","Devrim Nas","Emir Özden","Gizem Katmer"],
-             "img":{
-                "banner":"https://www.biletix.com/static/images/live/event/eventimages/kuheylan_914_504.jpg"
-             }
-           
+      "img": {
+        "banner": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/her-sey-her-yerde-ayni-anda-2022328152628.jpg"
+      }
+    },
+    {
+      "id": "35",
+      "category": "Sinema",
+      "title": "Harry Potter ve Sırlar Odası ",
+      "location": "Kemerburgaz Kent Ormanı",
+      "city": "İSTANBUL",
+      "date": "17/09/23",
+      "time": "22.30",
+      "rate": [{ "Avantajlı": "195" }, { "Standart": "250" }],
+      "sum": "Lord of the Ring Serisi, extended versiyonlarıyla Kadıköy Sineması'nda! The Fellowship of the Ring (Yüzük Kardeşliği),  The Two Towers (İki Kule),  The Return of the King (Kralın Dönüşü) serinin tüm filmleri tek gecede..",
 
+      "img": {
+        "banner": "https://www.biletix.com/static/images/live/event/eventimages/wide/harrypotter2GE29wide.png"
+      }
+    },
+    {
+      "id": "36",
+      "category": "Sinema",
+      "title": "Kuru Otlar Üstüne",
+      "location": "Kadıköy Sineması ",
+      "city": "İSTANBUL",
+      "date": "21/09/23",
+      "time": "22.30",
+      "rate": [{ "Avantajlı": "195" }, { "Standart": "250" }],
+      "sum": "Kuru Otlar Üstüne filminin konusu: Doğu Anadolu'nun kırsal kesiminde çalışan ve İstanbul'a atanmayı ümit eden bir öğretmenin, öğrencisini taciz etmekle suçlanmasını konu ediyor. Samet, bu suçlamadan kendini temize çıkarmak için mücadele ederken, aynı zamanda köyün ve toplumunun katı kurallarıyla da başa çıkmak zorunda kalır.  Filmin yönetmenliğini Nuri Bilge Ceylan yaptı, senaryosunu da Ebru Ceylan ve Akın Aksu ile birlikte yazdı. Film, 2023 Cannes Film Festivali'nde Altın Palmiye için yarıştı ve Merve Dizdar, En İyi Kadın Oyuncu ödülünü kazandı.",
 
-        },
-        {      "id":"5",
-            "category": "tiyatro",
-            "title":"Zengin Mutfağı",
-             "location":"Harbiye Cemil Topuzlu Açık Hava Sahnesi",
-             "city":"İSTANBUL",
-             "date":"24/09/23",
-             "time":"18.00",
-             "rate":[{"Avantajlı":"385"},{"Standart":"420"},{"Öğrenci":"245"}],
-             "sum":"Cumhuriyet tarihinde görülmüş en büyük işçi hareketi olan 15-16 Haziran 1970 olaylarının zengin bir ailenin mutfağına yansıması.Oyunda aşçı Lütfü Usta’yı canlandıran Şener Şen, 40 yıl aradan sonra aynı rolde ve genç bir oyuncu kadrosuyla tekrar sahnede.",
-             "actors":["Şener Şen","Kutay Sandıkçı","Onay Kaya","Uğur Arda Başkan"],
-             "img":{
-                "banner":"https://tiyatrolar.com.tr/files/activity/z/zengin-mutfagi-1/gallery/13109/zengin-mutfagi-1-13109.jpg"
-             }
+      "img": {
+        "banner": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/610b8f547e7c49adb31f7062fc2db734.webp"
+      }
+    },
+    {
+      "id": "37",
+      "category": "Sinema",
+      "title": "Sinemada 1 Gece: Back To The Future",
+      "location": "Kadıköy Sineması ",
+      "city": "İSTANBUL",
+      "date": "21/09/23",
+      "time": "22.30",
+      "rate": [{ "Avantajlı": "195" }, { "Standart": "250" }],
+      "sum": "80’lerin ses getiren üçlemesi Geleceğe Dönüş, ya da orijinal ismiyle Back to the Future, genç Marty McFly'ın yanlışlıkla 1955 yılına gönderilmesiyle başlar. Ancak bu hata sonradan zamanın akışını değiştiren bir serüvene dönüşür.Gideceğimiz yerde yola ihtiyacımız yok Marty!Eşsiz karakterleri ve akıllara kazınan replikleri ile Geleceğe Dönüş, Cumartesi gecesine renk katacak. Geceyarısından sabah 07:00’a kadar Geleceğe Dönüş serisinin üç filmini birden izliyoruz! ",
 
-        },
-        {      "id":"6",
-            "category": "tiyatro",
-            "title":"Cimri",
-             "location":"Fişekhane",
-             "city":"İSTANBUL",
-             "date":"10/09/23",
-             "time":"21.00",
-             "rate":[{"Avantajlı":"385"},{"Standart":"420"},{"Öğrenci":"245"}],
-             "sum":" Kimdir bu Cimri? Gerçekten de dedikleri kadar acımasız, katı yürekli, pinti ve kötü müdür? İnsan doğuştan mı böyle olur? Sadece yazılmış bir karakter midir? Etrafımızda var mıdır böyleleri? Nasıl bir şey olurdu böylesi bir insanla yaşamak?",
-             "actors":["Serkan Keskin","Hakan Atalay","Sezin Bozacı"],
-              "img":{
-                "banner":"https://tiyatrolar.com.tr/files/activity/c/cimri5/gallery/2482/cimri5-2482.jpg"
-              }
-        },
-        { 
-          "id":"7",
-            "category": "tiyatro",
-            "title":"Kreutzer Sonat",
-             "location":"Ara Sahne",
-             "city":"İSTANBUL",
-             "date":"14/09/23",
-             "time":"17.00",
-             "rate":[{"Avantajlı":"385"},{"Standart":"420"},{"Öğrenci":"245"}],
-             "sum":"Karısının kendisini arkadaşı olan bir müzisyenle aldattığını düşünen Pozdnışev, bir kıskançlık krizine girerek karısını öldürür. Pozdnışev'in tek kişilik bir anlatı ile bütün evlilik sürecini gözden geçirdiği oyun müzik, kadın & erkek ilişkileri ve toplumun insan üzerindeki baskısını masaya yatırıyor.",
-             "actors":["Kayhan Berkin"],
-              "img":{
-                "banner":"https://tiyatrolar.com.tr/files/activity/k/kreutzer-sonat/gallery/16599/kreutzer-sonat-16599.jpg"
-              }
-        }, 
-        {    
-          "id":"8",
-            "category": "tiyatro",
-            "title":"Cyrano",
-             "location":"Ankara Oran Açık Hava Sahnesi",
-             "city":"ANKARA",
-             "date":"04/09/23",
-             "time":"19.00",
-             "rate":[{"Avantajlı":"385"},{"Standart":"420"},{"Öğrenci":"245"}],
-             "sum":"Gerçek kahramanlar bilek gücüyle mi, yoksa söz gücüyle meydan okur hayata? Aşk için sadece kalp güzelliği yeter mi? İnsan akla mı aşık olur, bedene mi? Bunun gibi bir sürü soruyu kucağımıza atıp, alaycı bir nanikle sahneden inecek Cyrano.",
-             "actors":["Mert Fırat","Ecem Çeşmicioğlu"],
-              "img":{
-                "banner":"https://www.biletix.com/static/images/live/event/eventimages/cyrano_nmr.png"
-              }
-        },
-        {
-
-          "id":"9",
-            "category": "tiyatro",
-            "title":"Kum Zambakları",
-             "location":"Zorlu Performans Sanatları",
-             "city":"İSTANBUL",
-             "date":"20/09/23",
-             "time":"20.00",
-             "rate":[{"Avantajlı":"385"},{"Standart":"420"},{"Öğrenci":"245"}],
-             "sum":"Doğayı ve hayvanların doğal yaşamını yok eden insanlığın kendisiyle ve kadın erkek ilişkisi üzerinden birbiriyle olan çatışmasını   eğlenceli bir dille tartışmaya açıyor. Seyirciler aşk ve şiddet arasında duygusal git geller yaşayan ve  birbirini yok etmeye çalışan Duygu ve Fikret’in hayatının farklı evrelerine tanıklık ederken insanlığın doğayla olan ilişkini yeniden gözden geçirecek.",
-             "actors":["Evrim Doğan","Umut Kurt"],
-              "img":{
-                "banner":"https://www.zorlupsm.com/medium/Activity/Image/efade03b-3358-47fb-8590-a4bab45d6aa8"
-              }
-        },
-        { 
-          "id":"10",
-            "category": "tiyatro",
-            "title":"Richard",
-             "location":"KüçükÇiftlik Park",
-             "city":"İSTANBUL",
-             "date":"14/09/23",
-             "time":"19.00",
-             "rate":[{"Avantajlı":"385"},{"Standart":"420"},{"Öğrenci":"245"}],
-             "sum":"012 yılında İngiltere kralı III. Richard'ın kemikleri bir otoparkta bulunur. İskeletin adli tıp uzmanlarınca araştırılıp, kanıtlanması uzun bir zaman alacaktır.  Tam o sıralarda küçük bir tiyatro topluluğu ise Shakespeare’in en önemli eserlerinden III. Richard oyununun provalarını yapmaktadır. Olaylar, polis tarafından aranan birinin tiyatroya   sığınması ile rayından çıkar. Kendini Richard olarak tanıtan ve var olan düzene,   sanatın mevcut kurumsal, etik ve hiyerarşik yapısına karşı olan bu adam, önce III. Richard rolünü, daha sonra da yönetmen koltuğunu ele geçirir..",
-             "actors":["Okan Bayülgen","Şenay Gürler","Ebru Unurtan","Nihal Usanmaz","Kevork Türker"],
-              "img":{
-                "banner":"https://tiyatrolar.com.tr/files/activity/r/richard/gallery/22500/richard-22500.jpg"
-              }
-        },
-        {
-          "id":"11",
-            "category": "tiyatro",
-            "title":"Kibritin Ucunda",
-             "location":"Zorlu Performans Sanatlari",
-             "city":"İSTANBUL",
-             "date":"19/09/23",
-             "time":"19.00",
-             "rate":[{"Avantajlı":"385"},{"Standart":"420"},{"Öğrenci":"245"}],
-             "sum":"30’larının başında bir plaza çalışanı olan Kerem, başarı hırsının, çocukluğunun ve küçük bir felaket sonrası ziyarete gelen geçmişinin gölgesinde,  kendiyle uzun ve derin bir hesaplaşmaya girişir. Kafasının içinden gelen seslere engel olmaya bıraktığı o soğuk İstanbul akşamında tüm çocukluğu kar taneleri gibi yerlere dökülür. Kerem’in hayatı o gece bir kibritin ucunda….",
-             "actors":["Rıza Kocağlu"],
-              "img":{
-                "banner":"https://tiyatrolar.com.tr/files/activity/k/kibritin-ucunda/gallery/23440/kibritin-ucunda-23440.jpg"
-              }
-        },
-        {
-          "id":"12",
-            "category": "tiyatro",
-            "title":"Cırcır Böcekleri İtler ve Biz",
-             "location":"Fişekhane",
-             "city":"İSTANBUL",
-             "date":"21/10/23",
-             "time":"19.00",
-             "rate":[{"Avantajlı":"385"},{"Standart":"420"},{"Öğrenci":"245"}],
-             "sum":"İnsan kendi elleriyle kurduğu sistemin içinde ezilirken, kendi elleri ile bu tuzaktan kurtulmayı beceremez mi? Yoksa insanın kurduğu sistem, insandan daha akıllı davranıp onu beceriksizleştirdi mi?  Peki hangisi daha zor, kalmak mı gitmek mi?",
-             "actors":["Serhat Teoman","Buğra Gülsoy","Ayşe Lebriz Berkem","Burak Sarımola"],
-              "img":{
-                "banner":"https://tiyatrolar.com.tr/files/activity/y/yasamaya-dair/gallery/1527/yasamaya-dair-1527.jpg"
-              }
-        },
-        {  "id":"13",
-            "category": "tiyatro",
-            "title":"Amadeus",
-             "location":"Antalya Açıkhava Tiyatrosu",
-             "city":"ANTALYA",
-             "date":"25/09/23",
-             "time":"19.00",
-             "rate":[{"Avantajlı":"385"},{"Standart":"420"},{"Öğrenci":"245"}],
-             "sum":"üzik konusunda yüce bir yeteneğe sahip olan Mozart ile Salieri’nin ilişkisine odaklı bir başyapıt.   Sanat ile sanatçının kişiliği arasındaki ilişkiye odaklanan ve usta müzisyenin yaşamını, Salieri üzerinden anlatan bir klasik.",
-             "actors":["Selçuk Yöntem","Tansu Biçer","Dilan Çiçek Deniz","Kevork Türker","Yiğit Pakmen"],
-              "img":{
-                "banner":"https://tiyatrolar.com.tr/files/activity/a/amadeus-2/gallery/22171/amadeus-2-22171.jpg"
-              }
-        },
-        {
-          "id":"14",
-            "category": "tiyatro",
-            "title":"Bir Delinin Hatıra Defteri",
-             "location":"Aktüel Açık Hava Sahnesi",
-             "city":"ANTALYA",
-             "date":"04/09/23",
-             "time":"19.00",
-             "rate":[{"Avantajlı":"385"},{"Standart":"420"},{"Öğrenci":"245"}],
-             "sum":" Aksenti ivanoviç Popçirinin baskıcı sistemde boyun eğmeme çabaları ve yaşadığı psikolojik gel-gitler kendisini İspanya Kralı sanmasına kadardevam eder ve akıl hastanesine kapatılmasıyla son bulur.",
-             "actors":["Erdal Beşikçioğlu"],
-              "img":{
-                "banner":"https://tiyatrolar.com.tr/files/activity/b/bir-delinin-hatira-defteri3/gallery/995/bir-delinin-hatira-defteri3-995.jpg"
-              }
-        },
-        { 
-          "id":"15",
-            "category": "tiyatro",
-            "title":"Shirley Valentine",
-             "location":"Bursa AOB",
-             "city":"BURSA",
-             "date":"24/09/23",
-             "time":"21.00",
-             "rate":[{"Avantajlı":"385"},{"Standart":"420"},{"Öğrenci":"245"}],
-             "sum":"Günlük hayatının sıkıcılığı içinde kaybolmuş ve birçok kadın gibi artık hayallerini bile unutmuş olan Shirley Valentine’nin öyküsü... ",
-             "actors":["Sumru Yavrucuk"],
-              "img":{
-                "banner":"https://tiyatrolar.com.tr/files/activity/s/shirley-valentine-1/gallery/20107/shirley-valentine-1-20107.jpg"
-              }
-        }
-
-
-    ]
+      "img": {
+        "banner": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/9f5342aada9b470cad4e0f0e90d13f00.png"
+      }
+    },
+    {
+      "id": "38",
+      "category": "Sinema",
+      "title": "Netam eşliğinde The Cameraman",
+      "location": "Kadıköy Sineması ",
+      "city": "İSTANBUL",
+      "date": "21/09/23",
+      "time": "22.30",
+      "rate": [{ "Avantajlı": "195" }, { "Standart": "250" }],
+      "sum": "Edward Sedgwick’in yönettiği 1928 yapımı film, gazete fotoğrafçısı olma hayaliyle yanıp tutuşan ancak rekabetin gölgesinde trajikomik bir maceraya sürüklenen bir karakterin öyküsünü anlatıyor. Buster Keaton'ın akrobatik sahneleriyle renklenen hikaye, Netam'ın kalıplaşmış türlerden sıyrılan eşzamanlı performansıyla geçmişten günümüze bir zaman yolculuğuna dönüşecek. ",
+      "img": {
+        "banner": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/3a17ffe3235d427b94e7f5dae792c0eb.png"
+      }
+    },
+    {
+      "id": "39",
+      "category": "Sinema",
+      "title": "A Clockwork Orange",
+      "location": "CerModern Sinema ",
+      "city": "İSTANBUL",
+      "date": "21/09/23",
+      "time": "22.30",
+      "rate": [{ "Avantajlı": "195" }, { "Standart": "250" }],
+      "sum": "Otomatik Portakal, şiddet bağımlısı gençlerden kurulu bir çetenin, çevrelerine saçtığı dehşet ve korkuyu işleyerek bir korku imparatorluğunun resmini çizmektedir. Çetenin lideri Alex, işler çığırından çıkınca yakalanır ve gözaltına alınır. Ama hapse atılmaz; cezası bir şiddet deneyine kobay olarak kullanılmak olur. Bu deney insanoğlu ve şiddet kavramı arasındaki ilişkiyi ortaya koyma amaçlıdır ama deneyin kendisi de bir o kadar insan doğasına aykırıdır.  ",
+      "img": {
+        "banner": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/b48e7ccef6f6446292c8eaa65ddd1d30.jpg"
+      }
+    },
+    {
+      "id": "40",
+      "category": "Sinema",
+      "title": "Matrix",
+      "location": "CerModern Sinema ",
+      "city": "İSTANBUL",
+      "date": "10/09/23",
+      "time": "22.30",
+      "rate": [{ "Avantajlı": "195" }, { "Standart": "250" }],
+      "sum": "Wachowski Kardeşlerin sinema tarihine adını yazdıran The Matrix, bir hacker olan Neo ile ona yaşadığı hayatın Matrix adında bir simülasyon olduğunu gösteren Trinity ve Morpheus'un düzene karşı verdikleri savaşı anlatıyor.",
+      "img": {
+        "banner": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/290dc1845e734f3d8fd4499c1fecf7f5.jpg"
+      }
+    },
+    {
+      "id": "41",
+      "category": "Sinema",
+      "title": "Taxi Driver",
+      "location": "CerModern Sinema ",
+      "city": "İSTANBUL",
+      "date": "17/09/23",
+      "time": "22.30",
+      "rate": [{ "Avantajlı": "195" }, { "Standart": "250" }],
+      "sum": "Taksi Şoförü, Vietnam’da savaşının izlerini henüz atamayan bir askerin, geceleri taksi şoförlüğü yaparak gördüğü kirli ve adaletsiz dünyaya uyum sağlamayı reddetme hikayesini anlatıyor. Film, Robert De Niro’nun canlandırdığı Travis Bickle karakteriyle kültleşmiştir. Taksi şoförü Travis, sosyal hayatındaki başarısızlığını, saplantılı bir tutku beslediği Bickle’la tersine döndürmeye çalışsa da beklediği karşılığı bulamıyor. Bu kırılma anından sonra bir silah alıp harekete geçmeyi, sokakların pisliğini temizlemeye karar veriyor; bu esnada kendini bir fahişeyi kurtarmaya adıyor. Çürümeye yüz tutmuş bir topluma karşı tutulan bir ayna niteliğindeki film, yönetmen Martin Scorsese’nin kariyerinin en önemli filmlerinden biri olarak kabul görür.",
+      "img": {
+        "banner": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/7ae1d78067d24709a4d53b7aa246757c.jpg"
+      }
+    }
+  ]
 }

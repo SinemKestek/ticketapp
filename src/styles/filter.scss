@@ -1,51 +1,44 @@
-.filterContainer{
-    background-color:#333744;
-   padding: 8px 12px;
-    display: flex;
-   align-items: center;
-   justify-content: space-evenly;
-   .form-select,.select-item{
+.filterContainer {
+  background-color: #05060cf8;
+  padding: 8px 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  .form-select,
+  .select-item {
     height: 26px;
-    max-width:  230px;
-     margin-left: 19px;
-     width: 200px;
-     padding: 0;
-   
-   }
-   .filterMenu{
-    color:#fff ;
- 
+    max-width: 230px;
+    margin-left: 19px;
+    width: 200px;
+    padding: 0;
+  }
+  .filterMenu {
+    color: #fff;
+  }
+  //    background-color: rgb(13, 17, 24);
+  .filter {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
 
-   }
-//    background-color: rgb(13, 17, 24);
-    .filter{
-        display: flex;
-        align-items: center;
-        margin:0 20px;
-    
-        .title{
-        
-            justify-content: center;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            color:rgba(228, 226, 225, 0.945);
-         
-        }
+    .title {
+      justify-content: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      color: rgba(228, 226, 225, 0.945);
     }
- .btn{
-    width:  70px;
-  
- }
+  }
+  .btn {
+    width: 70px;
+  }
 }
-@media screen and (max-width:992px){
-    .filterContainer{
-      display: none;
-    
-    
-     .filterMenu{
-        display: block;
-     }
+@media screen and (max-width: 992px) {
+  .filterContainer {
+    display: none;
+
+    .filterMenu {
+      display: block;
     }
-        
-    }
+  }
+}
