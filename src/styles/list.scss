@@ -24,9 +24,10 @@ h3{
    .eventInf{
    background-color: rgba(188, 187, 192, 0.185);
     img{
-        max-width:150px  !important;
-        height: auto;
+        width: 180px;
+       object-fit: cover;
         margin:5px 12px;
+    
     }
     
     padding: 0.4rem 0.8rem;

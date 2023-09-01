@@ -1,6 +1,6 @@
 import  List  from '../components/List'
 
-const Filter = (index) => {
+const Filter = () => {
   return (
     <>
  

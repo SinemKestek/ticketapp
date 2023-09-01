@@ -24,15 +24,17 @@ import { GlobalContext } from '../Context/GlobalState'
      </div>
       <PreviousSlider></PreviousSlider>
      <div className='my-4 cardContainer'>
-       { dtCategory.map((dt,index)=>(
-       <Link to={`/detailpage/${index}`}>
-       <div className='cardWrapper' key={index} >
-       <div div className='cardBanner'> <img src={dt.img.banner} alt={dt.title} /> </div>   
+       { dtCategory.map((dt,id)=>(
+       <Link to={`/detailpage/${dt.id}`} className='link'>
+       <div className='cardWrapper' key={id} >
+       <div  className='cardBanner'> <img src={dt.img.banner} alt={dt.title} /> 
          <div className='categoryInf'>
          <h5>{dt.title}</h5>
         <div className='eventLoc'><small>{dt.location},{dt.city}</small></div>
        <div className='eventTime'><CiCalendarDate size={19}></CiCalendarDate><span className='small'>{dt.released}</span></div>
      </div>
+     </div>  
+
 </div>
 
 

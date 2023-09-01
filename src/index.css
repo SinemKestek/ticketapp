@@ -6,7 +6,10 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  text-decoration: none;
+  text-decoration: none!important;
+}
+a{
+  color: rgb(20, 34, 43);
 }
 body {
   --bs-gutter-x:0
@@ -55,6 +58,4 @@ ul{
   grid-template-columns:60% 20% 20%;
   
  } */
- img{
-  width: 100%;
- }
+

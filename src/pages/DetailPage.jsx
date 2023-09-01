@@ -10,33 +10,32 @@ import Filter from '../components/FilterMenü'
 import { GlobalContext } from '../Context/GlobalState'
  const DetailPage = () => {
     const {data}=useContext(GlobalContext)
+  
+    const {id}=useParams()
+    console.log(id)
+   const postDetail=data.filter((post)=>post.id==id)
+  //  console.log(postDetail)
 
-    
-    const { index } = useParams();
-    console.log(data[index]);
-    const event = data && data[index]; // Check if data[index] is defined
-    if (!event) {
-      // Handle the case when the event is not found
-      return <div>Event not found</div>; }
     return (
-       <>
+       <div div className="container my-5">
      <Filter></Filter>
-<div className="container my-5">
-<div className='d-block'>
-      <h2>{data[index]?.title}</h2>
+ {postDetail.map((post,id)=>(
+  <div className="container my-5">
+  <div className='d-block' key={id}>
+      <h2>{post?.title}</h2>
       <div className="d-flex detailInf">
       <div>
-        <div>
-          <IoTodayOutline size={16}></IoTodayOutline>{data[index]?.date}
+        <div className='detailIcon'>
+          <IoTodayOutline size={16}></IoTodayOutline>{post?.date}
         </div>
-        <div>
-        {data[index]?.time}
+        <div className='detailIcon'>
+        {post?.time}
           <GoClock size={16}></GoClock> 
         </div>
-        <div>
-          <Link to="/location">
+        <div className='detailIcon'>
+          <Link to={`/location/${post.location}`}>
             <IoLocationOutline size={16}></IoLocationOutline>
-            {data[index]?.location}
+            {post.location}
           </Link>
         </div>
       </div>
@@ -69,38 +68,28 @@ import { GlobalContext } from '../Context/GlobalState'
         </ul>
       </div>
     </div>
-    </div>
-{data && (
+ </div>
+{postDetail && (
   <div className="imgBanner detailContainer">
-   
-  
 
-   
-
-    <img src={data[index]?.img?.banner} alt="" />
-    <div className="my-4 p-2 ">
+    <img src={post?.img?.banner} alt="" />
+    <div className="my-4 p-2 summary ">
           <h3>Etkinlik Detayları</h3>
           <div>
-            <span className="s2"> Özet:</span><span>{data[index]?.sum} </span>
+            <span className="s2"> Özet:</span><span>{post?.sum} </span>
           </div>
           <div className="s2  ">Oyuncular:
-          {event.actors?.map((actor)=>
-          ( <span className='d-inline-block mx-1 '>{actor}</span>))}
+          {post.actors.map((actor)=>
+          ( <span className='d-inline-block mx-1' key={actor}>{actor}</span>))}
          </div> 
         </div>
-
-
-
-
   </div>
 )}
- 
-
         <div className="ticket">
-          <div>{data[index]?.date}</div>
-          <div> <GoClock size={15}></GoClock> {data[index]?.time}</div>
+          <div>{post?.date}</div>
+          <div> {post?.time}</div>
           <div>
-            <p> <Link >{data[index]?.location}</Link> </p>
+            <p> <Link to={`/location/:${post.location}`} >{post?.location}</Link> </p>
           </div>
 
           <div class="dropdown">
@@ -112,8 +101,8 @@ import { GlobalContext } from '../Context/GlobalState'
               Bilet Al
             </button>
             <ul class="dropdown-menu">
-              {event.rate?.map((item) => (
-                <li key={item}>
+              {post.rate.map((item) => (
+                <li key={item} >
                   <a class="dropdown-item" href="#">
                     {Object.keys(item)} : {Object.values(item)}
                   </a>
@@ -121,23 +110,18 @@ import { GlobalContext } from '../Context/GlobalState'
               ))}
             </ul>
           </div>
-      
-  
 
+        </div> 
         </div>
-
-
-      <div className="notice">
+        ))
+ }  
+   <div className="notice">
        <h2>Etkinlik Kuralları</h2>
        <span>-18 yaş sınırı vardır.</span>
        <span>-Etkinlik girişinde bilet kontrolü yapılacaktır, biletinizi telefondan göstermeniz gerekmektedir.</span>
        <span> -Organizatör firma, misafirlere rahatça eğlenebilecekleri bir ortam sunabilmek için mekan girişinde uygun görmediği kişileri kapıda bilet iadesi yaparak içeri almama hakkına sahiptir.</span>
      </div>
-     
-     </div>
-    </>
- 
-
+    </div>
   )
 }
 

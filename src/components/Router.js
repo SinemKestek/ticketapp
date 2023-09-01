@@ -23,8 +23,10 @@ export default function Router() {
                     <Route path="/" element={<Home></Home>}/>
                     <Route path="/filter" element={<Filter/>}/>
                      <Route path="/categoryDetail/:categoryName" element={<CategoryDetail></CategoryDetail>}></Route>
-                     <Route path="/detailPage/:index" element={<DetailPage/>}/>
-                     <Route path="/location" element={<Location></Location>}></Route>
+                     {/* <Route path="/detailPage/:index" element={<DetailPage/>}/> */}
+                     <Route path="/detailPage/:id" element={<DetailPage></DetailPage>}></Route>
+                 
+                     <Route path="/location/:loc" element={<Location></Location>}></Route>
                      </Route>
             </Routes>
             
