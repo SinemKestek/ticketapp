@@ -1,23 +1,27 @@
-import React, { useRef } from "react";
+import React, { useEffect, useRef } from "react";
 import { BiSearch } from "react-icons/bi";
 import logo from "../logo2.jpg";
-import { Link, useNavigate } from "react-router-dom";
+import { Link, Navigate, useNavigate } from "react-router-dom";
 import Filter from "../pages/Filter";
 import CategoryDetail from "../pages/CategoryDetail";
 import { useGlobalContext } from "../Context/GlobalState";
 
 const Navbar = () => {
-  const { setSearchTerm, setResultTitle } = useGlobalContext();
+  const { data, setSearchTerm, searchTerm, setFilterData } = useGlobalContext();
   const searchText = useRef("");
   const navigate = useNavigate();
 
-  const handleSubmit = (e) => {
-    let tempSearchTerm = searchText.current.value.trim();
-    console.log(tempSearchTerm);
-    if (e.key === "Enter") {
-      // setSearchTerm(tempSearchTerm);
-      navigate("/filter");
-    }
+  const handleFilter = (value) => {
+    setSearchTerm(value);
+    const filteredData = data.filter(
+      (dt) =>
+        dt.title.toLowerCase().includes(value) ||
+        dt.location.toLowerCase().includes(value) ||
+        dt.city.toLowerCase().includes(value)
+    );
+    console.log(filteredData);
+    setFilterData(filteredData);
+    navigate("/list");
   };
 
   return (
@@ -40,13 +44,13 @@ const Navbar = () => {
               <Link to={"categoryDetail/Sinema"}>Sinema</Link>
             </li>
             <li>
-              <Link to={"categoryDetail/Bale&dans"}>Bale&Dans</Link>
+              <Link to={"categoryDetail/Diger"}>Diger</Link>
             </li>
           </ul>
 
           <div className="search">
             <input
-              onKeyUp={handleSubmit}
+              onChange={(e) => handleFilter(e.target.value.trim())}
               ref={searchText}
               type="text"
               placeholder="Mekan,etkinlik yada sanatçı arayın"

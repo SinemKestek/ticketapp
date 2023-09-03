@@ -3,23 +3,28 @@
     {
       "id": "1",
       "category": "tiyatro",
-      "title": "Aydinlik Evler",
-      "location": "Maximum UNIQ",
-      "city": "İSTANBUL",
-      "date": "30/08/23",
-      "time": "20.00",
+      "title": "Fahrenheit 451",
+      "location": "KTÜ Akademi Salonu",
+      "city": "Trabzon",
+      "date": "24/09/23",
+      "time": "22.00",
       "rate": [
         { "Avantajlı": "385" },
         { "Standart": "420" },
         { "Öğrenci": "245" }
       ],
-      "sum": "Yaşamak, zemheriye ve yokluğa direnmek ve Amerikayla baş etmek üzerine dar gelirli ama zengin bir öykü… Burasi Aydinlikevler ve babaannem Amerikaya karşi!",
-      "actors": ["Demet Akbağ", "Salih Bademci", "Sinem Ünsal"],
+      "sum": "zulanan ve hayal edilen ütopik toplum modelinin anti-tezi niteliğindeki “distopya” kavramı; gelecekte ya da kurgusal bir evrende geçen, özgürlüğün reddedildiği, bunaltıcı ve baskıcı birideolojinin düzen adına yol açtığı korkuyu, acıyı, güvensizliği ve mutsuzluğu anlatır.İnsan psikolojisinden başlayarak toplum düzenine yayılan bu denetlenemez kâbusta, kurtuluş mümkün olsa bile onu gerçekleştirmek her zaman mümkün müdür?‘Fahrenheit 451’; Bradbury’nin distopyası değil, açık seçik bizim dünyamızdır, kendi tarihimiz.Zaman ise belirsiz değil, daima bu zamandır.Şimdi sor kendine, kitap kağıtlarını tutuşturmayı sağlayan bir sıcaklık derecesi, düşünceyi ortadan kaldırmaya yeter mi?",
+      "actors": [
+        "Erdal Beşikçioğlu",
+        "Elvin Beşikçioğlu",
+        "Ünsal Coşar",
+        "Selin Zafertepe"
+      ],
       "img": {
-        "banner": "https://imageprod.passo.com.tr/eventgroup/12032023151650-2.jpg",
-        "album": [{ "1": "", "2": "", "3": "", "4": "" }]
+        "banner": "https://ippasso.mediatriple.net/event/20082023004931-451faaaa.jpg"
       }
     },
+
     {
       "id": "2",
       "category": "tiyatro",
@@ -335,7 +340,7 @@
       }
     },
     {
-      "id": "16",
+      "id": "17",
       "category": "tiyatro",
       "title": "Korkuyu Beklerken",
       "location": "KTÜ Akademi Salonu",
@@ -354,31 +359,28 @@
       }
     },
     {
-      "id": "17",
+      "id": "18",
       "category": "tiyatro",
-      "title": "Fahrenheit 451",
-      "location": "KTÜ Akademi Salonu",
-      "city": "Trabzon",
-      "date": "24/09/23",
-      "time": "22.00",
+      "title": "Aydinlik Evler",
+      "location": "Maximum UNIQ",
+      "city": "İSTANBUL",
+      "date": "30/08/23",
+      "time": "20.00",
       "rate": [
         { "Avantajlı": "385" },
         { "Standart": "420" },
         { "Öğrenci": "245" }
       ],
-      "sum": "zulanan ve hayal edilen ütopik toplum modelinin anti-tezi niteliğindeki “distopya” kavramı; gelecekte ya da kurgusal bir evrende geçen, özgürlüğün reddedildiği, bunaltıcı ve baskıcı birideolojinin düzen adına yol açtığı korkuyu, acıyı, güvensizliği ve mutsuzluğu anlatır.İnsan psikolojisinden başlayarak toplum düzenine yayılan bu denetlenemez kâbusta, kurtuluş mümkün olsa bile onu gerçekleştirmek her zaman mümkün müdür?‘Fahrenheit 451’; Bradbury’nin distopyası değil, açık seçik bizim dünyamızdır, kendi tarihimiz.Zaman ise belirsiz değil, daima bu zamandır.Şimdi sor kendine, kitap kağıtlarını tutuşturmayı sağlayan bir sıcaklık derecesi, düşünceyi ortadan kaldırmaya yeter mi?",
-      "actors": [
-        "Erdal Beşikçioğlu",
-        "Elvin Beşikçioğlu",
-        "Ünsal Coşar",
-        "Selin Zafertepe"
-      ],
+      "sum": "Yaşamak, zemheriye ve yokluğa direnmek ve Amerikayla baş etmek üzerine dar gelirli ama zengin bir öykü… Burasi Aydinlikevler ve babaannem Amerikaya karşi!",
+      "actors": ["Demet Akbağ", "Salih Bademci", "Sinem Ünsal"],
       "img": {
-        "banner": "https://ippasso.mediatriple.net/event/20082023004931-451faaaa.jpg"
+        "banner": "https://imageprod.passo.com.tr/eventgroup/12032023151650-2.jpg",
+        "album": [{ "1": "", "2": "", "3": "", "4": "" }]
       }
     },
+
     {
-      "id": "18",
+      "id": "19",
       "category": "Müzik",
       "title": "Evrencan Gündüz",
       "location": "Kemerburgaz Kent Ormanı",
@@ -397,7 +399,7 @@
       }
     },
     {
-      "id": "19",
+      "id": "20",
       "category": "Müzik",
       "title": "Evrencan Gündüz",
       "location": "Tarla Alaçatı",
@@ -416,7 +418,7 @@
       }
     },
     {
-      "id": "20",
+      "id": "21",
       "category": "Müzik",
       "title": "Tamino",
       "location": "ODTÜ Vişnelik Tesisi",
@@ -435,7 +437,7 @@
       }
     },
     {
-      "id": "21",
+      "id": "22",
       "category": "Müzik",
       "title": "Jakuzi",
       "location": "Blind",
@@ -454,7 +456,7 @@
       }
     },
     {
-      "id": "22",
+      "id": "23",
       "category": "Müzik",
       "title": "Mor ve Ötesi",
       "location": "KüçükÇiftlik Park",
@@ -473,7 +475,7 @@
       }
     },
     {
-      "id": "23",
+      "id": "24",
       "category": "Müzik",
       "title": " Kerem Görsev Trio",
       "location": "Zorlu Performans Sanatları",
@@ -488,7 +490,7 @@
       }
     },
     {
-      "id": "24",
+      "id": "25",
       "category": "Müzik",
       "title": "Kenan Dogulu",
       "location": "Bursa Kültürpark Açıkhava Tiyatrosu",
@@ -503,7 +505,7 @@
       }
     },
     {
-      "id": "25",
+      "id": "26",
       "category": "Müzik",
       "title": "Nessi Gomes",
       "location": "Zorlu Performans Sanatları",
@@ -518,7 +520,7 @@
       }
     },
     {
-      "id": "26",
+      "id": "27",
       "category": "Müzik",
       "title": "Adamlar",
       "location": "Zorlu Performans Sanatları",
@@ -533,7 +535,7 @@
       }
     },
     {
-      "id": "27",
+      "id": "28",
       "category": "Müzik",
       "title": "Pomme",
       "location": "Zorlu Performans Sanatları",
@@ -548,7 +550,7 @@
       }
     },
     {
-      "id": "28",
+      "id": "29",
       "category": "Müzik",
       "title": "Altın Gün",
       "location": "Zorlu Performans Sanatları",
@@ -563,7 +565,7 @@
       }
     },
     {
-      "id": "29",
+      "id": "30",
       "category": "Müzik",
       "title": "Imany",
       "location": "Turkcell Vadi",
@@ -578,7 +580,7 @@
       }
     },
     {
-      "id": "30",
+      "id": "31",
       "category": "Müzik",
       "title": "Kenan Dogulu",
       "location": "Çukurova Üniversitesi Açıkhava Tiyatrosu",
@@ -591,12 +593,13 @@
         { "Ögrenci": "855" }
       ],
       "sum": "Kenan Doğulu, KerkiSolfej organizasyonu ile sevilen şarkılarını sizlerle buluşturmaya hazırlanıyor.",
+      "actors": [""],
       "img": {
         "banner": "https://ippasso.mediatriple.net/event/22082023130457-kenan.jpg"
       }
     },
     {
-      "id": "31",
+      "id": "32",
       "category": "Müzik",
       "title": "Sertab Erener",
       "location": "Maximum UNIQ ",
@@ -609,12 +612,13 @@
         { "Öğrenci": "855" }
       ],
       "sum": "Türk müziğinin yıldız sanatçısı Sertab Erener, Bkm yaz etkinlikleri kapsamında, son albümü ‘Ben Yaşarım’ ve geçmişten günümüze gelen sevilen şarkılarını Bkm organizasyonu ile 20 Eylül’de Maximum Uniq Açıkhava’da söyleyecek.",
+      "actors": [""],
       "img": {
         "banner": "https://ippasso.mediatriple.net/event/06062023105700-sertab_bkm_uniq.jpg"
       }
     },
     {
-      "id": "32",
+      "id": "33",
       "category": "Müzik",
       "title": "Resa Saffa Park",
       "location": "IF Performance Hall ",
@@ -628,7 +632,7 @@
       }
     },
     {
-      "id": "33",
+      "id": "34",
       "category": "Sinema",
       "title": " Lord of the Rings Gecesi",
       "location": "Kadıköy Sineması ",
@@ -637,13 +641,13 @@
       "time": "23.30",
       "rate": [{ "Avantajlı": "295" }, { "Standart": "650" }],
       "sum": "Lord of the Ring Serisi, extended versiyonlarıyla Kadıköy Sineması'nda! The Fellowship of the Ring (Yüzük Kardeşliği),  The Two Towers (İki Kule),  The Return of the King (Kralın Dönüşü) serinin tüm filmleri tek gecede..",
-
+      "actors": [""],
       "img": {
         "banner": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/ef9c1b57ae7f4b2c9f649edeb837d3cc.jpeg"
       }
     },
     {
-      "id": "34",
+      "id": "35",
       "category": "Sinema",
       "title": " Her Sey Her Yerde Aynı Anda",
       "location": "Kadıköy Sineması ",
@@ -652,13 +656,13 @@
       "time": "23.30",
       "rate": [{ "Avantajlı": "95" }, { "Standart": "130" }],
       "sum": "Her Şey Her Yerde Aynı Anda, eşsiz zaman kavramı ve farklı hikayelerin paralel akışıyla izleyiciyi sürükleyen, düşündüren ve etkileyici bir sinema deneyimi sunuyor.",
-
+      "actors": [""],
       "img": {
         "banner": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/her-sey-her-yerde-ayni-anda-2022328152628.jpg"
       }
     },
     {
-      "id": "35",
+      "id": "36",
       "category": "Sinema",
       "title": "Harry Potter ve Sırlar Odası ",
       "location": "Kemerburgaz Kent Ormanı",
@@ -673,7 +677,7 @@
       }
     },
     {
-      "id": "36",
+      "id": "37",
       "category": "Sinema",
       "title": "Kuru Otlar Üstüne",
       "location": "Kadıköy Sineması ",
@@ -682,13 +686,13 @@
       "time": "22.30",
       "rate": [{ "Avantajlı": "195" }, { "Standart": "250" }],
       "sum": "Kuru Otlar Üstüne filminin konusu: Doğu Anadolu'nun kırsal kesiminde çalışan ve İstanbul'a atanmayı ümit eden bir öğretmenin, öğrencisini taciz etmekle suçlanmasını konu ediyor. Samet, bu suçlamadan kendini temize çıkarmak için mücadele ederken, aynı zamanda köyün ve toplumunun katı kurallarıyla da başa çıkmak zorunda kalır.  Filmin yönetmenliğini Nuri Bilge Ceylan yaptı, senaryosunu da Ebru Ceylan ve Akın Aksu ile birlikte yazdı. Film, 2023 Cannes Film Festivali'nde Altın Palmiye için yarıştı ve Merve Dizdar, En İyi Kadın Oyuncu ödülünü kazandı.",
-
+      "actors": [""],
       "img": {
         "banner": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/610b8f547e7c49adb31f7062fc2db734.webp"
       }
     },
     {
-      "id": "37",
+      "id": "38",
       "category": "Sinema",
       "title": "Sinemada 1 Gece: Back To The Future",
       "location": "Kadıköy Sineması ",
@@ -697,13 +701,13 @@
       "time": "22.30",
       "rate": [{ "Avantajlı": "195" }, { "Standart": "250" }],
       "sum": "80’lerin ses getiren üçlemesi Geleceğe Dönüş, ya da orijinal ismiyle Back to the Future, genç Marty McFly'ın yanlışlıkla 1955 yılına gönderilmesiyle başlar. Ancak bu hata sonradan zamanın akışını değiştiren bir serüvene dönüşür.Gideceğimiz yerde yola ihtiyacımız yok Marty!Eşsiz karakterleri ve akıllara kazınan replikleri ile Geleceğe Dönüş, Cumartesi gecesine renk katacak. Geceyarısından sabah 07:00’a kadar Geleceğe Dönüş serisinin üç filmini birden izliyoruz! ",
-
+      "actors": [""],
       "img": {
         "banner": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/9f5342aada9b470cad4e0f0e90d13f00.png"
       }
     },
     {
-      "id": "38",
+      "id": "39",
       "category": "Sinema",
       "title": "Netam eşliğinde The Cameraman",
       "location": "Kadıköy Sineması ",
@@ -714,10 +718,11 @@
       "sum": "Edward Sedgwick’in yönettiği 1928 yapımı film, gazete fotoğrafçısı olma hayaliyle yanıp tutuşan ancak rekabetin gölgesinde trajikomik bir maceraya sürüklenen bir karakterin öyküsünü anlatıyor. Buster Keaton'ın akrobatik sahneleriyle renklenen hikaye, Netam'ın kalıplaşmış türlerden sıyrılan eşzamanlı performansıyla geçmişten günümüze bir zaman yolculuğuna dönüşecek. ",
       "img": {
         "banner": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/3a17ffe3235d427b94e7f5dae792c0eb.png"
-      }
+      },
+      "actors": [""]
     },
     {
-      "id": "39",
+      "id": "40",
       "category": "Sinema",
       "title": "A Clockwork Orange",
       "location": "CerModern Sinema ",
@@ -726,12 +731,13 @@
       "time": "22.30",
       "rate": [{ "Avantajlı": "195" }, { "Standart": "250" }],
       "sum": "Otomatik Portakal, şiddet bağımlısı gençlerden kurulu bir çetenin, çevrelerine saçtığı dehşet ve korkuyu işleyerek bir korku imparatorluğunun resmini çizmektedir. Çetenin lideri Alex, işler çığırından çıkınca yakalanır ve gözaltına alınır. Ama hapse atılmaz; cezası bir şiddet deneyine kobay olarak kullanılmak olur. Bu deney insanoğlu ve şiddet kavramı arasındaki ilişkiyi ortaya koyma amaçlıdır ama deneyin kendisi de bir o kadar insan doğasına aykırıdır.  ",
+      "actors": [""],
       "img": {
         "banner": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/b48e7ccef6f6446292c8eaa65ddd1d30.jpg"
       }
     },
     {
-      "id": "40",
+      "id": "41",
       "category": "Sinema",
       "title": "Matrix",
       "location": "CerModern Sinema ",
@@ -740,22 +746,159 @@
       "time": "22.30",
       "rate": [{ "Avantajlı": "195" }, { "Standart": "250" }],
       "sum": "Wachowski Kardeşlerin sinema tarihine adını yazdıran The Matrix, bir hacker olan Neo ile ona yaşadığı hayatın Matrix adında bir simülasyon olduğunu gösteren Trinity ve Morpheus'un düzene karşı verdikleri savaşı anlatıyor.",
+      "actors": [""],
       "img": {
         "banner": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/290dc1845e734f3d8fd4499c1fecf7f5.jpg"
       }
     },
     {
-      "id": "41",
+      "id": "42",
       "category": "Sinema",
-      "title": "Taxi Driver",
-      "location": "CerModern Sinema ",
+      "title": "Pera Müzesi",
+      "location": "Pera Müzesi ",
       "city": "İSTANBUL",
       "date": "17/09/23",
-      "time": "22.30",
+      "time": "08.30-17.00",
       "rate": [{ "Avantajlı": "195" }, { "Standart": "250" }],
-      "sum": "Taksi Şoförü, Vietnam’da savaşının izlerini henüz atamayan bir askerin, geceleri taksi şoförlüğü yaparak gördüğü kirli ve adaletsiz dünyaya uyum sağlamayı reddetme hikayesini anlatıyor. Film, Robert De Niro’nun canlandırdığı Travis Bickle karakteriyle kültleşmiştir. Taksi şoförü Travis, sosyal hayatındaki başarısızlığını, saplantılı bir tutku beslediği Bickle’la tersine döndürmeye çalışsa da beklediği karşılığı bulamıyor. Bu kırılma anından sonra bir silah alıp harekete geçmeyi, sokakların pisliğini temizlemeye karar veriyor; bu esnada kendini bir fahişeyi kurtarmaya adıyor. Çürümeye yüz tutmuş bir topluma karşı tutulan bir ayna niteliğindeki film, yönetmen Martin Scorsese’nin kariyerinin en önemli filmlerinden biri olarak kabul görür.",
+      "sum": "Kuruluşundan günümüze gerçekleştirdiği etkinliklerle Türkiye’nin en sevilen müzelerinden biri haline gelen Pera Müzesi ziyaretçilerini bekliyor.Kapılarını 2005 Haziran ayı başlarında açan Pera Müzesi, Suna ve İnan Kıraç Vakfı’nın, kentin bu seçkin noktasında kültür-sanat hizmeti vermek amacıyla hayata geçirdiği geniş kapsamlı bir kültür girişiminin ilk adımıdır. Bu projede bir ‘müze-kültür merkezi’ işlevini üstlenen Pera Müzesi için, 1893 yılında mimar Achille Manoussos’un İstanbul’un gözde semti Tepebaşı’nda inşa ettiği yapı, Mimar M. Sinan Genim tarafından tümüyle elden geçirilerek çağdaş donanımlı bir müzeye dönüştürülmüş ve hizmete sunulmuştur.Suna ve İnan Kıraç Vakfı’na ait “Oryantalist Resim”, “Anadolu Ağırlık ve Ölçüleri” ve “Kütahya Çini ve Seramikleri” koleksiyonlarını ve bu koleksiyonları",
+      "actors": [""],
       "img": {
-        "banner": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/7ae1d78067d24709a4d53b7aa246757c.jpg"
+        "banner": "https://www.biletix.com/static/images/live/event/eventimages/peramuzesi_giris1.jpg"
+      }
+    },
+    {
+      "id": "43",
+      "category": "Diger",
+      "title": "Starrynight",
+      "location": "Anka Workshop ",
+      "city": "İSTANBUL",
+      "date": "29/09/23",
+      "time": "08.30-17.00",
+      "rate": [{ "Avantajlı": "195" }, { "Standart": "250" }],
+      "sum": "Anka Workshop Kadıköy'ün kalbinde bulunan İstanbul'un en merkezi sanat atölyesidir. Etkinliklerimizde hiçbir tecrübe gerekmiyor. Eğitmenlerimiz eşliğinde kendi sanat eserinizi yapıp etkinlik sonunda yanınızda götürebiliyorsunuz.  Tüm malzemeler, ve müzikler bizden! Ücretsiz kafe alanından faydalanabilirsiniz. ",
+      "actors": [""],
+      "img": {
+        "banner": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/starrynight-resim-20221227171619.jpg"
+      }
+    },
+    {
+      "id": "44",
+      "category": "Diger",
+      "title": "Astronot (Heykel)",
+      "location": "Anka Workshop ",
+      "city": "İSTANBUL",
+      "date": "24/09/23",
+      "time": "08.30-17.00",
+      "rate": [{ "Avantajlı": "395" }, { "Standart": "550" }],
+      "sum": "Anka Workshop Kadıköy'ün kalbinde bulunan İstanbul'un en merkezi sanat atölyesidir. Etkinliklerimizde hiçbir tecrübe gerekmiyor. Eğitmenlerimiz eşliğinde kendi sanat eserinizi yapıp etkinlik sonunda yanınızda götürebiliyorsunuz.  Tüm malzemeler, ve müzikler bizden! Ücretsiz kafe alanından faydalanabilirsiniz. ",
+      "actors": [""],
+      "img": {
+        "banner": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/7dfb3dd30fbf4ed6b5f419c06b86b030.png"
+      }
+    },
+    {
+      "id": "45",
+      "category": "Diger",
+      "title": "World Of İllusion Museum",
+      "location": "Mavibahçe Avm",
+      "city": "İZMİR",
+      "date": "30/09/23",
+      "time": "08.30-17.00",
+      "rate": [{ "Avantajlı": "195" }, { "Standart": "250" }],
+      "sum": "Başak Eğitim Hizmetleri A.Ş. Genel Direktörü Metin Akyol tarafından tasarlanan, Ames odasından kesik kafa illüzyonuna, uçuran aynadan anamorfoz görüntü aynalarına, illüzyon disklerinden benham disklerine 40 farklı modelden oluşan World of Illusion Sergisi, İstanbul ve Ankara’dan sonra şimdi İzmir'de sizlerle olacak. 22 Aralık 2022 - 30 Eylül 2023 tarihleri arasında ziyaretçilerini ağırlayacak sergi büyük bir merakla İzmir'liler tarafından bekleniyor.  İzmir Mavibahçe AVM'de sergilenecek olan World of Illusion'ı, bilimin şaşırtıcı gerçeklerini görerek optik illüzyon istasyonlarını interaktif olarak deneyimleme fırsatı yakalayabilmek için tüm İzmir'liler ziyaret edebilirler.",
+      "actors": [""],
+      "img": {
+        "banner": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/world-of-illusion-museum-20221221151952.jfif"
+      }
+    },
+    {
+      "id": "46",
+      "category": "Diger",
+      "title": "Kemal Akçay",
+      "location": "CerModern Konferans Salonu",
+      "city": "ANKARA",
+      "date": "23/09/23",
+      "time": "14.00",
+      "rate": [{ "Avantajlı": "195" }, { "Standart": "250" }],
+      "sum": "ilmin Anatomisi-Kemal Akçay ile Sinemanın Öyküsü atölyesi Eylül’de Cermodern'de..Sinema tarihinde eğlenceli ve öğretici bir yolculuğa çıkmak ister misiniz? Sinemanın dönüm noktalarını ve  önemli filmlerini konuşacağımız bu atölyenin sonunda sinemaya bambaşka bir açıdan bakmaya başlayacaksınız.",
+      "actors": [""],
+      "img": {
+        "banner": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/5d231a2c34e44c9bb06280fdcee59198.png"
+      }
+    },
+    {
+      "id": "47",
+      "category": "Diger",
+      "title": "Z Sanat Festivali",
+      "location": "Beşiktaş Kültür Merkezi",
+      "city": "İSTANBUL",
+      "date": "23/09/23",
+      "time": "12.00",
+      "rate": [{ "Avantajlı": "195" }, { "Standart": "250" }],
+      "sum": "anat dolu bir festival deneyimi için biletlerimiz şimdi satışta! 🎟️🌟 Z Sanat Festivali, Beşiktaş'ın sanatseverlerini unutulmaz bir etkinliğe davet ediyor. Tiyatronun büyülü dünyasını, dansın ritmini, resimlerin renklerini ve daha birçok sanatın güzelliğini keşfetmek için hazırlanın! 🎨💃🎭",
+      "actors": [""],
+      "img": {
+        "banner": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/12db6ebcc9e142d2802c21cd9dc6bc51.jpeg"
+      }
+    },
+    {
+      "id": "48",
+      "category": "Diger",
+      "title": "Özgür Turhan",
+      "location": "Beşiktaş Kültür Merkezi",
+      "city": "İSTANBUL",
+      "date": "23/09/23",
+      "time": "12.00",
+      "rate": [{ "Avantajlı": "195" }, { "Standart": "250" }],
+      "sum": "Sinema, dizi ve film oyuncusu, sosyal medya fenomeni, komedyen olan Özgür Turhan, 1992 Kayseri doğumludur. İzmir Balçova Lisesi ve Dokuz Eylül Üniversitesi Güzel Sanatlar Fakültesi mezunudur. Youtube kanalı üzerinden başladığı komedyenlik serüvenine standup gösterileri yaparak devam etmektedir",
+      "actors": ["Özgür Turhan"],
+      "img": {
+        "banner": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/ozgur-turhan-202211116262.png"
+      }
+    },
+    {
+      "id": "49",
+      "category": "Diger",
+      "title": "UNSEEN",
+      "location": "Zorlu Performans Sanatlari",
+      "city": "İSTANBUL",
+      "date": "23/09/23",
+      "time": "12.00",
+      "rate": [{ "Avantajlı": "195" }, { "Standart": "250" }],
+      "sum": " Işıkları, kostümleri, dekorları, kulisleri, Zorlu PSM’den yolu geçmiş tüm sanatçıları ve çok daha fazlasını keşfetmek isteyenleri 5000 adımlık Unseen Tur’da unutulmaz bir deneyim bekliyor. Dünyanın en büyük kültür sanat merkezleri arasında yer alan Zorlu PSM'nin muhteşem mimarisi ve büyüleyici atmosferinde tam 90 dakika boyunca sahne arkasının bilinmeyenleriyle tanışacaksınız. ",
+      "actors": [""],
+      "img": {
+        "banner": "https://ippasso.mediatriple.net/event/25072023154051-unseen_1920x1080_psso_v3.png"
+      }
+    },
+    {
+      "id": "50",
+      "category": "Diger",
+      "title": "Tchibo Coffee Passion",
+      "location": "Salhane-Bozcaada",
+      "city": "Canakkale",
+      "date": "23/09/23",
+      "time": "12.00",
+      "rate": [{ "Standart": "250" }],
+      "sum": "Kahve tutkunuzu bir adım öteye taşımaya geldik! Tchibo Coffee Passion atölyesinde hepimiz birer kahve gurmesine dönüşeceğiz. Kahvenin tarihçesinden yetiştirme süreçlerine kadar öğreneceğimiz teorik bilgilerin yanı sıra kahve demlemenin aritmetiğine de gireceğiz. Farklı kahve yapımı teknikleriyle yalnızca gurme değil, baristalığa da ufak bir giriş yapmış olacağız! ",
+      "actors": [""],
+      "img": {
+        "banner": "https://ippasso.mediatriple.net/event/28082023130851-tchibopsn.png"
+      }
+    },
+    {
+      "id": "51",
+      "category": "Diger",
+      "title": "Sushi - 2 Workshop",
+      "location": "Salhane-Bozcaada",
+      "city": "Canakkale",
+      "date": "23/09/23",
+      "time": "19.00",
+      "rate": [{ "Standart": "1.250" }],
+      "sum": "apon mutfağının farklı çeşitlere sahip ve en önemli lezzetlerinden Sushi’nin inceliklerini keşfetmeye hazır mısınız? Sushi pilavının pişirilmesi, en bilinen Sushi çeşitlerinin hazırlanma yöntemleri ve servis edilme şekillerini öğrenmek için workshop’umuzu kaçırmayın!",
+      "actors": [""],
+      "img": {
+        "banner": "https://ippasso.mediatriple.net/event/23082023104621-tex-mex-workshop-cook.jpg"
       }
     }
   ]

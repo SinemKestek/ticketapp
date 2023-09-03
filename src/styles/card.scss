@@ -1,59 +1,64 @@
-.categoriesWrapper {
-  padding: 1.2rem 0.06rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.categoriesCard {
+  flex-wrap: wrap;
+  max-width: 175px;
+  padding: 12px 4px;
+  height: 100%;
+  padding: 2px;
 
-  .categoriesCard {
-    width: 184px;
-    background-color: rgba(112, 112, 112, 0.137);
-    padding: 8px;
-    margin: 3px 6px;
+  border-radius: 10px;
+  &:hover {
+    border-left: 2px solid rgb(25, 16, 61);
+    border-bottom: 2px solid rgb(25, 16, 61);
+  }
+  .cardBanner {
+    position: relative;
+    object-fit: contain;
 
-    .cardBanner {
-      position: relative;
-      object-fit: contain;
-
-      img {
-        max-width: 100%;
-        height: auto;
-        object-fit: cover;
-      }
-      .eventTime {
-        position: absolute;
-        bottom: 0;
-        right: 0;
-        padding: 3px;
-        background-color: #fffefef6;
-        border-radius: 40px 0 0 40px;
-        border-left: 5px solid rgba(28, 24, 34, 0.884);
-        border-bottom: 2px solid rgba(28, 24, 34, 0.884);
-      }
+    img {
+      max-width: 100%;
+      object-fit: cover;
     }
-    .categoryInf {
-      margin: 12px auto;
-      display: flex;
-      flex-direction: column;
-    }
-
-    &:hover {
-      cursor: pointer;
+    .eventTime {
+      position: absolute;
+      width: 100%;
+      height: 0;
+      overflow: hidden;
+      text-align: right;
+      bottom: 0;
+      right: 0;
+      color: rgb(246, 246, 255);
+      padding: 6px;
+      background-color: #1d1b1baf;
+      transition: all 0.9s ease-in-out;
+      &:hover {
+        height: 40%;
+      }
     }
   }
-  .allBtn {
-    align-self: flex-end;
-    padding: 8px;
-    border-radius: 9px;
-    background-color: rgba(11, 11, 26, 0.685);
-    color: aliceblue;
+  .categoryInf {
+    margin: 12px auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &:hover {
+    cursor: pointer;
   }
 }
+.allBtn {
+  align-self: flex-end;
+  padding: 8px;
+  border-radius: 9px;
+  background-color: rgba(11, 11, 26, 0.685);
+  color: aliceblue;
+}
+
 .advContainer {
   .advBanner {
     height: 150px;
     position: relative;
     text-align: center;
-    background-image: url("https://images.unsplash.com/photo-1576724196070-cf259e69503f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTl8MTY4Njc4NTV8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
+    background-image: url("https://images.unsplash.com/photo-1558970439-add78fc68990?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHN0YWdlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60");
     background-position: center;
     object-fit: contain;
     margin: 29px 4px;

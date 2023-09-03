@@ -4,8 +4,12 @@ import "../../node_modules/slick-carousel/slick/slick.css";
 import "../../node_modules/slick-carousel/slick/slick-theme.css";
 import { useGlobalContext } from "../Context/GlobalState";
 import "../styles/slickStyle.scss";
+import { Link } from "react-router-dom";
 const PreviousSlider = () => {
   const { data } = useGlobalContext();
+
+  const props = data.filter((dt) => dt.category === "Müzik").slice(0, 12);
+
   const settings = {
     dots: true,
     infinite: false,
@@ -40,20 +44,19 @@ const PreviousSlider = () => {
       },
     ],
   };
-  //  const tekKisi=data.filter((dt)=>dt.actors.lenght===1)
-  //  console.log(data.actors)
-  // console.log(tekKisi)
+
   return (
-    <div className="p-4 container">
-      <h5 className="text-muted">Popüler Etkinlikler</h5>
+    <div className="container">
+      <h5 className="my-4">Popüler Konserler</h5>
       <Slider {...settings}>
-        {data.map((dt) => (
+        {props.map((props) => (
           <div className="card my-4 mx-auto">
-            <div className="card-top">
-              <img src={dt.img.banner} alt="" />
-              <h5>{dt.title}</h5>
+            <div className="card-top" key={props.id}>
+              <img src={props.img.banner} alt="" />
+              <Link to={`detailPage/${props.id}`}>
+                <h5>{props.title}</h5>
+              </Link>
             </div>
-            <div className="card-bottom">{dt.location}</div>
           </div>
         ))}
       </Slider>

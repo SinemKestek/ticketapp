@@ -1,105 +1,80 @@
-.banner{
-    display: flex;
-    position: relative;
-    min-height: 40px;
-    .bannerjpg{
-        filter: blur(8px);
-        -webkit-filter: blur(1px);
-        max-height: 240px;
-        height: 180px;
-    }
-    
-    .bannerTitle{
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        padding: 14px 30px;
-         z-index: 5;
-        bottom: 0;
-        color: aliceblue;
-       
-    }
+.banner {
+  display: flex;
+  position: relative;
+  min-height: 40px;
+  margin: 12px 0;
+  .bannerjpg {
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    max-height: 240px;
+    height: 180px;
+    width: 100%;
+  }
 
+  .bannerTitle {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 14px 30px;
+    z-index: 5;
+    bottom: 0;
+    color: aliceblue;
+  }
 }
-.cardContainer{
+.cardContainer {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items:center ;
+  align-items: center;
   margin: auto;
 
+  .link {
+    .cardWrapper {
+      max-height: 600px;
+      height: 380px;
+      width: 330px;
+      position: relative;
+      margin: 16px 24px;
+      overflow: hidden;
 
-.link{
- 
-    .cardWrapper{
-       max-height: 600px;
-        height: 380px;
-        width: 330px;
-        position: relative; 
-        margin: 16px 24px; 
-        overflow: hidden;
-      
-    
- 
-        .cardBanner{
-            min-width: 380px;
-            width: 100%;
-            height: 100%;
-         
-          img{
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-          }
-           
+      .cardBanner {
+        min-width: 380px;
+        width: 100%;
+        height: 100%;
+
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
         }
-        .categoryInf{
-         width: 100%;
-         height: 53px;
-         position:absolute ;
-         bottom: 0;
-         right: 0;
-         background-color: rgba(21, 35, 58, 0.685);
-         text-align: end;
-         padding: 0 22px;
-         color: rgb(245, 255, 240);
-        &:hover{
-            cursor: pointer;
-            height: 85px;
-            transition: all 0.5s ease-in-out;
+      }
+      .categoryInf {
+        width: 100%;
+        height: 53px;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        background-color: rgba(21, 35, 58, 0.685);
+        text-align: end;
+        padding: 0 22px;
+        color: rgb(245, 255, 240);
+        &:hover {
+          cursor: pointer;
+          height: 85px;
+          transition: all 0.5s ease-in-out;
         }
-         
-        }
+      }
     }
-
-
-
-
-
-
-
+  }
 }
- 
-
-
-
-
-
- 
-    }
 
 @media screen and (max-width: 600px) {
-    .bannerTitle{
-        h4{
-            color:rgba(5, 0, 14, 0.918);
-        }
-       
-
-        
-
+  .bannerTitle {
+    h4 {
+      color: rgba(5, 0, 14, 0.918);
     }
-    .bannerjpg{
-        display: none;
-    }
-    
+  }
+  .bannerjpg {
+    display: none;
+  }
 }

@@ -1,55 +1,53 @@
-import React from 'react'
-import { useState } from 'react';
-import Carousel from 'react-bootstrap/Carousel';
-
-
+import React from "react";
+import { useState } from "react";
+import Carousel from "react-bootstrap/Carousel";
+import { useGlobalContext } from "../Context/GlobalState";
+import { Link } from "react-router-dom";
 
 const Slider = () => {
+  const { data } = useGlobalContext();
 
-    const [index, setIndex] = useState(0);
+  const slideShow = data.slice(9, 13).filter((dt) => dt.category === "tiyatro");
 
-    const handleSelect = (selectedIndex) => {
-      setIndex(selectedIndex);
-    };
-  return ( 
-    <div div className=' slideContainer'>
-     
-     <Carousel activeIndex={index} onSelect={handleSelect}>
-      <Carousel.Item>
-        <img text="First slide" className='slide'  src="https://www.cloudsdomain.com/uploads/icerikresim/23988.jpeg" />
-        <Carousel.Caption>
-          <h3>Zengin Mutfağı</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-          <button className='btn btn-light'>Bilet Al</button>
-        </Carousel.Caption>
-      </Carousel.Item>
+  const truncateString = (str, num) => {
+    if (str?.length > num) {
+      return str.slice(0, num) + "...";
+    } else {
+      return str;
+    }
+  };
 
-      <Carousel.Item> 
-        <img text="Second slide" className='slide' src='https://pbs.twimg.com/media/EK3Zd9ZWsAI3dkt.jpg' />
-        <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          <button className='btn btn-light'>Bilet Al</button>
-        </Carousel.Caption>
-      </Carousel.Item>
-      
-      <Carousel.Item>
-        <img text="Third slide" className='slide' src='https://ippasso.mediatriple.net/eventgroup/22082023222537-toz.jpg' />
-        <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
-          <button className='btn btn-light'>Bilet Al</button>
-        </Carousel.Caption>
-      </Carousel.Item>
-    </Carousel>
+  const [index, setIndex] = useState(0);
+  const handleSelect = (selectedIndex) => {
+    setIndex(selectedIndex);
+  };
+  return (
+    <div className="carouselWrapper">
+      <Carousel
+        activeIndex={index}
+        onSelect={handleSelect}
+        className="carousel"
+      >
+        {slideShow.map((item) => (
+          <Carousel.Item>
+            <Link to={`detailpage/${item.id}`} key={item.id}>
+              <img
+                text="First slide"
+                className="slide"
+                src={item.img.banner}
+                className="sliderImg"
+              />
+              <Carousel.Caption>
+                <h3>{item.title}</h3>
+                <p>{truncateString(item.sum, 120)}</p>
+                <button className="btn btn-light">Bilet Al</button>
+              </Carousel.Caption>
+            </Link>
+          </Carousel.Item>
+        ))}
+      </Carousel>
+    </div>
+  );
+};
 
-  </div>
-  
-  
-    
-  )
-}
-
-export default Slider
+export default Slider;

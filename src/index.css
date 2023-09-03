@@ -30,29 +30,36 @@ ul{
   padding: 0;
 }
 
-.carousel-inner{
-  width: 100%;
- 
-}
+
 .carousel-indicators{
   display: none ; 
 }
 .carousel-control-next, .carousel-control-prev {
  opacity: 0;
- width: 4%;
+ width: 2%;
 }
 .carousel-caption{
   text-align: start;
-  left: 8%;
-}
+  width: 100%;
+ background-color: rgba(44, 44, 44, 0.212); 
+  left:0;
+  bottom: 0;
+    padding: 20px 10px;
 
+
+ 
+}
 
 .slide{
-  max-height: 450px;
-  min-height: 270px;
-  width: 100%;
-}
+ filter: grayscale(30%);
 
+}
+.sliderImg{
+ object-fit: fill;
+  width: 100%;
+   max-height:400px;
+  
+}
  /* .eventContainer{
   display: grid;
   grid-template-columns:60% 20% 20%;

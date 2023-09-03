@@ -4,24 +4,20 @@ import CategoriesRow from "../components/CategoriesRow";
 import Filter from "../components/Filter";
 import EventCategory from "../components/EventCategory";
 import AdvEvent from "../components/AdvEvent";
-import { GlobalContext } from "../Context/GlobalState";
+import { useGlobalContext } from "../Context/GlobalState";
 import PreviousSlider from "../components/PreviousSlider";
 
 const Home = () => {
-  const { data } = useContext(GlobalContext);
-  //konser ve sinemayı aşağı dağır propsla
+  const { data } = useGlobalContext;
 
   return (
     <>
       <Header />
       <Filter></Filter>
-
+      <PreviousSlider></PreviousSlider>
       <EventCategory />
-      <PreviousSlider></PreviousSlider>
-      <PreviousSlider></PreviousSlider>
-
-      {/* <CategoriesRow/> */}
-      <AdvEvent></AdvEvent>
+      <CategoriesRow />
+      {/* <AdvEvent></AdvEvent> */}
     </>
   );
 };
