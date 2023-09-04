@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const Slider = () => {
   const { data } = useGlobalContext();
 
-  const slideShow = data.slice(9, 13).filter((dt) => dt.category === "tiyatro");
+  const slideShow = data.slice(22, 26).filter((dt) => dt.category === "Müzik");
 
   const truncateString = (str, num) => {
     if (str?.length > num) {
@@ -37,6 +37,7 @@ const Slider = () => {
                 src={item.img.banner}
                 className="sliderImg"
               />
+
               <Carousel.Caption>
                 <h3>{item.title}</h3>
                 <p>{truncateString(item.sum, 120)}</p>

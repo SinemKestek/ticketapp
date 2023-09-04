@@ -8,6 +8,9 @@ import "../styles/detail.scss";
 import { Link, useParams } from "react-router-dom";
 import Filter from "../components/Filter";
 import { GlobalContext } from "../Context/GlobalState";
+import moment from "moment";
+import "moment/locale/tr";
+moment.locale("tr");
 const DetailPage = () => {
   const { data } = useContext(GlobalContext);
 
@@ -29,8 +32,8 @@ const DetailPage = () => {
                   {post?.date}
                 </div>
                 <div className="detailIcon">
-                  {post?.time}
                   <GoClock size={16}></GoClock>
+                  {post?.time}
                 </div>
                 <div className="detailIcon">
                   <Link to={`/location/${post.location}`}>
@@ -88,35 +91,35 @@ const DetailPage = () => {
             </div>
           )}
           <div className="ticket">
-            <div>{post?.date}</div>
+            <div>{moment(postDetail.date).format("LL")}</div>
             <div> {post?.time}</div>
             <div>
               <p>
-                {" "}
-                <Link to={`/location/${post.location}`}>
-                  {post?.location}
-                </Link>{" "}
+                <Link to={`/location/${post.location}`}>{post?.location}</Link>
               </p>
             </div>
-
-            <div class="dropdown">
-              <button
-                type="button"
-                class="btn dropdown-toggle"
-                data-bs-toggle="dropdown"
-              >
-                Bilet Al
-              </button>
-              <ul class="dropdown-menu">
-                {post.rate.map((item) => (
-                  <li key={item}>
-                    <a class="dropdown-item" href="#">
-                      {Object.keys(item)} : {Object.values(item)}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </div>
+            {!post.rate ? (
+              <p className="rate">Ücretsiz</p>
+            ) : (
+              <div class="dropdown">
+                <button
+                  type="button"
+                  class="btn dropdown-toggle"
+                  data-bs-toggle="dropdown"
+                >
+                  Bilet Al
+                </button>
+                <ul class="dropdown-menu">
+                  {post.rate.map((item) => (
+                    <li key={item}>
+                      <a class="dropdown-item" href="#">
+                        {Object.keys(item)} : {Object.values(item)}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
           </div>
         </div>
       ))}

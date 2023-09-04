@@ -760,7 +760,7 @@
       "city": "İSTANBUL",
       "date": "17/09/23",
       "time": "08.30-17.00",
-      "rate": [{ "Avantajlı": "195" }, { "Standart": "250" }],
+      "rate": 0,
       "sum": "Kuruluşundan günümüze gerçekleştirdiği etkinliklerle Türkiye’nin en sevilen müzelerinden biri haline gelen Pera Müzesi ziyaretçilerini bekliyor.Kapılarını 2005 Haziran ayı başlarında açan Pera Müzesi, Suna ve İnan Kıraç Vakfı’nın, kentin bu seçkin noktasında kültür-sanat hizmeti vermek amacıyla hayata geçirdiği geniş kapsamlı bir kültür girişiminin ilk adımıdır. Bu projede bir ‘müze-kültür merkezi’ işlevini üstlenen Pera Müzesi için, 1893 yılında mimar Achille Manoussos’un İstanbul’un gözde semti Tepebaşı’nda inşa ettiği yapı, Mimar M. Sinan Genim tarafından tümüyle elden geçirilerek çağdaş donanımlı bir müzeye dönüştürülmüş ve hizmete sunulmuştur.Suna ve İnan Kıraç Vakfı’na ait “Oryantalist Resim”, “Anadolu Ağırlık ve Ölçüleri” ve “Kütahya Çini ve Seramikleri” koleksiyonlarını ve bu koleksiyonları",
       "actors": [""],
       "img": {
@@ -820,7 +820,7 @@
       "city": "ANKARA",
       "date": "23/09/23",
       "time": "14.00",
-      "rate": [{ "Avantajlı": "195" }, { "Standart": "250" }],
+      "rate": 0,
       "sum": "ilmin Anatomisi-Kemal Akçay ile Sinemanın Öyküsü atölyesi Eylül’de Cermodern'de..Sinema tarihinde eğlenceli ve öğretici bir yolculuğa çıkmak ister misiniz? Sinemanın dönüm noktalarını ve  önemli filmlerini konuşacağımız bu atölyenin sonunda sinemaya bambaşka bir açıdan bakmaya başlayacaksınız.",
       "actors": [""],
       "img": {
@@ -880,7 +880,7 @@
       "city": "Canakkale",
       "date": "23/09/23",
       "time": "12.00",
-      "rate": [{ "Standart": "250" }],
+      "rate": 0,
       "sum": "Kahve tutkunuzu bir adım öteye taşımaya geldik! Tchibo Coffee Passion atölyesinde hepimiz birer kahve gurmesine dönüşeceğiz. Kahvenin tarihçesinden yetiştirme süreçlerine kadar öğreneceğimiz teorik bilgilerin yanı sıra kahve demlemenin aritmetiğine de gireceğiz. Farklı kahve yapımı teknikleriyle yalnızca gurme değil, baristalığa da ufak bir giriş yapmış olacağız! ",
       "actors": [""],
       "img": {

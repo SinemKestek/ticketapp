@@ -31,7 +31,6 @@ export const GlobalProvider = ({ children }) => {
       value={{
         setFilterData,
         data,
-
         filterData,
       }}
     >

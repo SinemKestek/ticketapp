@@ -10,28 +10,32 @@ const Navbar = () => {
   const inputRef = useRef();
   const navigate = useNavigate();
 
-  // const actor = data.map((e) => e.actors);
-  // const spr = actor.flat(Infinity);
-  // const actorFilt = spr.map((el) => el.toLowerCase());
-  // console.log(actorFilt);
-
   const handleFilter = (e) => {
     e.preventDefault();
-    const value = inputRef.current.value.trim();
+    const value = inputRef.current.value.trim().toLowerCase();
+
+    const actFilter = (actors) => {
+      const actor = actors.map((ac, index) => {
+        return ac.toLowerCase().includes(value);
+      });
+      if (actor.includes(true)) {
+        return actor;
+      }
+    };
 
     let filteredData = data.filter(
       (dt) =>
         dt.title.toLowerCase().includes(value) ||
         dt.location.toLowerCase().includes(value) ||
-        dt.city.toLowerCase().includes(value)
+        dt.city.toLowerCase().includes(value) ||
+        actFilter(dt.actors)
     );
-
-    // console.log(filteredData);
+    console.log(filteredData);
     inputRef.current.value = "";
     setFilterData(filteredData);
     navigate("/filter");
   };
-  // console.log(filterData);
+  console.log(filterData);
   return (
     <>
       <div className="wrapper">

@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 const PreviousSlider = () => {
   const { data } = useGlobalContext();
 
-  const props = data.filter((dt) => dt.category === "Müzik").slice(0, 12);
+  const props = data.filter((dt) => dt.category === "tiyatro").slice(0, 12);
 
   const settings = {
     dots: true,
@@ -46,8 +46,8 @@ const PreviousSlider = () => {
   };
 
   return (
-    <div className="container">
-      <h5 className="my-4">Popüler Konserler</h5>
+    <div className="container overflow-hidden ">
+      <h5 className="my-4">Popüler Tiyatrolar</h5>
       <Slider {...settings}>
         {props.map((props) => (
           <div className="card my-4 mx-auto">
