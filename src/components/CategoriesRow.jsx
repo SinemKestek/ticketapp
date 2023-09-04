@@ -14,13 +14,15 @@ const CategoriesRow = () => {
     <>
       <div className=" container my-5">
         <div className="categoryName">
-          <h2 className="fs-4">Öne Çıkanlar</h2>
+          <h2 className="fs-4">Etkinlikler</h2>
         </div>
         <div className=" row justify-content-center ">
           {post.map((dt) => (
             <div className="categoriesCard   col-md-3 col-sm-6 " key={dt.id}>
               <div className=" cardBanner">
-                <img src={dt.img.banner} alt="" />
+                <Link to={`/detailpage/${dt.id}`}>
+                  <img src={dt.img.banner} alt="" />
+                </Link>
                 <div className="eventTime">
                   <div className="categoryInf">
                     <h5>{dt.title}</h5>

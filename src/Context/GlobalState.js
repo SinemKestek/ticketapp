@@ -10,21 +10,17 @@ const URL = "http://localhost:3000/posts";
 
 export const GlobalContext = createContext();
 export const GlobalProvider = ({ children }) => {
-  const [searchTerm, setSearchTerm] = useState("");
   const [data, setData] = useState([]);
   const [filterData, setFilterData] = useState([]);
-  const fetchData = useCallback(async () => {
+  const fetchData = async () => {
     try {
       const response = await fetch(`${URL}`);
       const data = await response.json();
       setData(data);
-      filterData(data);
-
-      //  console.log(data);
     } catch (error) {
       console.log(error);
     }
-  });
+  };
 
   useEffect(() => {
     fetchData();
@@ -35,8 +31,7 @@ export const GlobalProvider = ({ children }) => {
       value={{
         setFilterData,
         data,
-        setSearchTerm,
-        searchTerm,
+
         filterData,
       }}
     >

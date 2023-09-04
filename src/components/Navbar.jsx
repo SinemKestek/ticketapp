@@ -1,29 +1,37 @@
 import React, { useEffect, useRef } from "react";
 import { BiSearch } from "react-icons/bi";
 import logo from "../logo2.jpg";
-import { Link, Navigate, useNavigate } from "react-router-dom";
-import Filter from "../pages/Filter";
-import CategoryDetail from "../pages/CategoryDetail";
+import { Link, useNavigate } from "react-router-dom";
+
 import { useGlobalContext } from "../Context/GlobalState";
 
 const Navbar = () => {
-  const { data, setSearchTerm, searchTerm, setFilterData } = useGlobalContext();
-  const searchText = useRef("");
+  const { data, setFilterData, filterData } = useGlobalContext();
+  const inputRef = useRef();
   const navigate = useNavigate();
 
-  const handleFilter = (value) => {
-    setSearchTerm(value);
-    const filteredData = data.filter(
+  // const actor = data.map((e) => e.actors);
+  // const spr = actor.flat(Infinity);
+  // const actorFilt = spr.map((el) => el.toLowerCase());
+  // console.log(actorFilt);
+
+  const handleFilter = (e) => {
+    e.preventDefault();
+    const value = inputRef.current.value.trim();
+
+    let filteredData = data.filter(
       (dt) =>
         dt.title.toLowerCase().includes(value) ||
         dt.location.toLowerCase().includes(value) ||
         dt.city.toLowerCase().includes(value)
     );
-    console.log(filteredData);
-    setFilterData(filteredData);
-    navigate("/list");
-  };
 
+    // console.log(filteredData);
+    inputRef.current.value = "";
+    setFilterData(filteredData);
+    navigate("/filter");
+  };
+  // console.log(filterData);
   return (
     <>
       <div className="wrapper">
@@ -48,15 +56,17 @@ const Navbar = () => {
             </li>
           </ul>
 
-          <div className="search">
+          <form className="search" onSubmit={handleFilter}>
             <input
-              onChange={(e) => handleFilter(e.target.value.trim())}
-              ref={searchText}
+              ref={inputRef}
               type="text"
               placeholder="Mekan,etkinlik yada sanatçı arayın"
-            />
-            <BiSearch className="searchBtn" size={20}></BiSearch>
-          </div>
+            />{" "}
+            <button type="submit" className="searchBtn">
+              {" "}
+              <BiSearch size={20}></BiSearch>
+            </button>
+          </form>
         </nav>
       </div>
     </>

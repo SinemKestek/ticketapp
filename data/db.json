@@ -627,6 +627,7 @@
       "time": "21.30",
       "rate": [{ "Avantajlı": "295" }, { "Standart": "650" }],
       "sum": "İskandinav şarkıcı Resa Saffa sevenleriyle IF'de buluşuyor..",
+      "actors": [""],
       "img": {
         "banner": "https://b6s54eznn8xq.merlincdn.net/Uploads/Films/1ddec57d0cdf4b419cde2d1ec23ec4fb.jpg"
       }
@@ -671,7 +672,7 @@
       "time": "22.30",
       "rate": [{ "Avantajlı": "195" }, { "Standart": "250" }],
       "sum": "Lord of the Ring Serisi, extended versiyonlarıyla Kadıköy Sineması'nda! The Fellowship of the Ring (Yüzük Kardeşliği),  The Two Towers (İki Kule),  The Return of the King (Kralın Dönüşü) serinin tüm filmleri tek gecede..",
-
+      "actors": [""],
       "img": {
         "banner": "https://www.biletix.com/static/images/live/event/eventimages/wide/harrypotter2GE29wide.png"
       }

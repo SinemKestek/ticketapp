@@ -6,6 +6,7 @@ import Filter from "../pages/Filter";
 import DetailPage from "../pages/DetailPage";
 import Location from "../pages/Location";
 import CategoryDetail from "../pages/CategoryDetail";
+
 import List from "../pages/List";
 export default function Router() {
   const Layout = () => {
@@ -33,7 +34,7 @@ export default function Router() {
           ></Route>
 
           <Route path="/location/:loc" element={<Location></Location>}></Route>
-          <Route path="/list" element={<List></List>}></Route>
+          <Route path="/filter" element={<Filter></Filter>}></Route>
         </Route>
       </Routes>
     </BrowserRouter>

@@ -1,72 +1,65 @@
-
-.detailContainer{
-    display:flex;
-     padding: 18px 8px ;
-     align-items: start;
-     justify-content: center;
-      overflow: hidden;
-   img{
-    width:100%;
+.detailContainer {
+  display: flex;
+  padding: 18px 8px;
+  align-items: start;
+  justify-content: center;
+  overflow: hidden;
+  img {
+    width: 100%;
     max-height: 470px;
     object-fit: contain;
-   }
-   .summary{
-   background-color: rgba(29, 34, 34, 0.048);
-   
-    
-
-   }
-
+  }
+  .summary {
+    background-color: rgba(29, 34, 34, 0.048);
+    margin: 24px;
+  }
 }
-.detailInf{
-    width: 100%;
-     background-color: rgba(190, 187, 187, 0.452);
-     justify-content: space-between;
-    
-    div{
-     padding: 0 4px;
-     display: flex;
-     flex-wrap: wrap;
-     align-items: center;
-   }
-   .detailIcon{
-    margin-right: 22px;
-   }
+.detailInf {
+  width: 100%;
+  background-color: rgba(190, 187, 187, 0.452);
+  justify-content: space-between;
 
-
-
-}
-.ticket{
-    min-height: 80px;
+  div {
+    padding: 0 4px;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
-    background-color: rgba(26, 36, 44, 0.123);
-    border-left : 5px solid rgb(4, 4, 48);
- div{
-  padding: 0 14px !important;
- }
-    &:hover{
-        border-color: rgb(218, 189, 25);
-    }
-    div{
-        padding:0 22px ;
-    }
+  }
+  .detailIcon {
+    margin-right: 22px;
+  }
 }
-.notice{
-    margin-top: 32px;
-    span{
-        display: block;
-        padding: 4px 9px;
-        font-size: 14px;
-    }
-   }
-   .s2{
-    font-size: 16px;
-    font-weight: 500;
+.ticket {
+  min-height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(26, 36, 44, 0.123);
+  border-left: 5px solid rgb(4, 4, 48);
+  div {
+    padding: 0 14px !important;
   }
-  @media screen and (max-width: 992px){
-    .detailContainer{
-        flex-wrap: wrap;
-    }
+  &:hover {
+    border-color: rgb(218, 189, 25);
   }
+  div {
+    padding: 0 22px;
+  }
+}
+.notice {
+  margin-top: 32px;
+  span {
+    display: block;
+    padding: 4px 9px;
+    font-size: 14px;
+  }
+}
+.s2 {
+  font-size: 16px;
+  font-weight: 500;
+}
+@media screen and (max-width: 992px) {
+  .detailContainer {
+    flex-wrap: wrap;
+  }
+}

@@ -7,6 +7,7 @@
   margin: 0;
   box-sizing: border-box;
   text-decoration: none!important;
+
 }
 a{
   color: rgb(20, 34, 43);
@@ -20,7 +21,7 @@ body {
   font-family: 'Raleway', sans-serif;
   font-family: 'Ubuntu', sans-serif;
   font-size: 1rem;
- 
+  height: 100vh;
 
 
 }

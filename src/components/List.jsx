@@ -6,7 +6,6 @@ import Filter from "./Filter";
 const List = ({ event }) => {
   return (
     <div className="container">
-      <Filter></Filter>
       <div className=" list-menu ">
         <div className="eventTitle ">Etkinlik</div>
         <div className="eventTitle ">Mekan</div>
