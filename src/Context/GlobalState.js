@@ -1,10 +1,4 @@
-import React, {
-  useState,
-  useContext,
-  useEffect,
-  createContext,
-  useCallback,
-} from "react";
+import React, { useState, useContext, useEffect, createContext } from "react";
 
 const URL = "http://localhost:3000/posts";
 
@@ -12,6 +6,7 @@ export const GlobalContext = createContext();
 export const GlobalProvider = ({ children }) => {
   const [data, setData] = useState([]);
   const [filterData, setFilterData] = useState([]);
+  const [timing, setTiming] = useState([]);
   const fetchData = async () => {
     try {
       const response = await fetch(`${URL}`);
@@ -32,6 +27,8 @@ export const GlobalProvider = ({ children }) => {
         setFilterData,
         data,
         filterData,
+        timing,
+        setTiming,
       }}
     >
       {" "}

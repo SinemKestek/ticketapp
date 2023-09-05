@@ -13,9 +13,8 @@ import "moment/locale/tr";
 moment.locale("tr");
 const DetailPage = () => {
   const { data } = useContext(GlobalContext);
-
   const { id } = useParams();
-  console.log(id);
+  // console.log(id);
   const postDetail = data.filter((post) => post.id == id);
   //  console.log(postDetail)
 
@@ -76,12 +75,11 @@ const DetailPage = () => {
               <div className="my-4 p-2 summary ">
                 <h3>Etkinlik Detayları</h3>
                 <div>
-                  <span className="s2"> Özet:</span>
+                  <span className="s2">Açıklama:</span>
                   <span>{post?.sum} </span>
                 </div>
                 <div className="s2  ">
-                  Oyuncular:
-                  {post.actors.map((actor) => (
+                  {post?.actors.map((actor) => (
                     <span className="d-inline-block mx-1" key={actor}>
                       {actor}
                     </span>
@@ -91,7 +89,7 @@ const DetailPage = () => {
             </div>
           )}
           <div className="ticket">
-            <div>{moment(postDetail.date).format("LL")}</div>
+            <div>{post?.date}</div>
             <div> {post?.time}</div>
             <div>
               <p>

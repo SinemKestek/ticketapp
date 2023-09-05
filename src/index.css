@@ -9,7 +9,7 @@
   text-decoration: none!important;
 
 }
-p{
+p{text-indent: 8px;
   margin: 0;
   padding: 0;
 }

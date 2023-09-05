@@ -35,7 +35,7 @@ const Navbar = () => {
     setFilterData(filteredData);
     navigate("/filter");
   };
-  console.log(filterData);
+  // console.log(filterData);
   return (
     <>
       <div className="wrapper">
