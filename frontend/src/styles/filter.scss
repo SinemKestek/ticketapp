@@ -33,12 +33,50 @@
     width: 70px;
   }
 }
+
+.filterMobileMenü {
+  position: relative;
+  display: none;
+  .toggle-mobil {
+    padding-bottom: 4px;
+    height: 27px;
+    align-self: flex-end;
+    margin-right: 12px;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  .mobileContainer {
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    .filter-m,
+    .title-m {
+      margin: 4px;
+    }
+    .title-m {
+      svg {
+        margin: 2px;
+      }
+    }
+  }
+  button {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.11);
+  }
+}
+
 @media screen and (max-width: 992px) {
   .filterContainer {
     display: none;
-
-    .filterMenu {
-      display: block;
-    }
+  }
+  .filterMobileMenü {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 600px) {
+  .filterMobileMenü {
+    display: flex;
+    flex-direction: column;
   }
 }

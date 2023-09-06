@@ -11,7 +11,6 @@
   }
   .summary {
     background-color: rgba(29, 34, 34, 0.048);
-    margin: 24px;
   }
 }
 .detailInf {
@@ -52,6 +51,11 @@
   //   padding: 0 22px;
   // }
 }
+.mapBtn {
+  outline: none;
+
+  color: rgb(2, 0, 14);
+}
 .notice {
   margin-top: 32px;
   span {
@@ -61,7 +65,8 @@
   }
 }
 .s2 {
-  font-size: 16px;
+  font-size: 15px;
+  color: black;
   font-weight: 500;
 }
 @media screen and (max-width: 992px) {

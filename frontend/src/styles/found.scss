@@ -1,0 +1,25 @@
+.notFound {
+  height: 80vh;
+
+  background-color: rgba(42, 43, 58, 0.123);
+  display: flex;
+  justify-content: center;
+
+  p {
+    color: rgb(2, 14, 24);
+    font-weight: 500;
+  }
+  .content {
+    display: flex;
+    flex-direction: column;
+    padding: 1.4rem;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0);
+    .btn {
+      margin-top: 28px;
+      background-color: rgba(97, 97, 117, 0.151);
+      box-shadow: rgba(92, 85, 85, 0.35) 0px 5px 15px;
+    }
+  }
+}

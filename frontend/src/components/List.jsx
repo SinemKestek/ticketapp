@@ -24,7 +24,7 @@ const List = ({ event }) => {
               </div>
 
               <div className="eventInf  ">
-                <Link>{event.location}</Link>
+                <Link to={`/location/${event.location}`}>{event.location}</Link>
                 <span>{event.city}</span>
               </div>
               <div className="eventInf ">{event.time}</div>

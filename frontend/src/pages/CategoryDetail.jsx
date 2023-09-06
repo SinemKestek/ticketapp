@@ -21,11 +21,11 @@ const CategoryDetail = () => {
         </div>
         <img
           className="bannerjpg"
-          src="https://images.unsplash.com/photo-1558970439-add78fc68990?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHN0YWdlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"
+          src="https://media.istockphoto.com/id/476806559/tr/foto%C4%9Fraf/audience-applauding-ballerina-on-stage-in-theater.jpg?s=612x612&w=0&k=20&c=4BHID5s7sOpHg4y1C5MX9_INpzYsP3m8ojO-zT-1vL0="
           alt=""
         />
       </div>
-      <PreviousSlider></PreviousSlider>
+
       <div className="my-4 cardContainer">
         {dtCategory.map((dt, id) => (
           <Link to={`/detailpage/${dt.id}`} className="link">

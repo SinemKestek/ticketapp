@@ -14,7 +14,7 @@ const CategoriesRow = () => {
     <>
       <div className=" container my-5">
         <div className="categoryName">
-          <h2 className="fs-4">Etkinlikler</h2>
+          <h2 className="fs-4">WorkShop & Diğer</h2>
         </div>
         <div className=" row justify-content-center ">
           {post.map((dt) => (

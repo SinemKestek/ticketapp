@@ -40,8 +40,8 @@ const Slider = () => {
 
               <Carousel.Caption>
                 <h3>{item.title}</h3>
-                <p>{truncateString(item.sum, 120)}</p>
-                <button className="btn btn-light">Bilet Al</button>
+                <p>{truncateString(item.sum, 83)}</p>
+                <button className="btn btn-sm btn-light my-3">Bilet Al</button>
               </Carousel.Caption>
             </Link>
           </Carousel.Item>

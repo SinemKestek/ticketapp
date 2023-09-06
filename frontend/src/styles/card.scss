@@ -54,17 +54,15 @@
 }
 
 .advContainer {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
   .advBanner {
-    height: 150px;
+    height: 80px;
     position: relative;
     text-align: center;
-    background-image: url("https://images.unsplash.com/photo-1558970439-add78fc68990?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHN0YWdlfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60");
-    background-position: center;
-    object-fit: contain;
-    margin: 29px 4px;
-
+    margin: 22px auto;
+    background-color: rgba(247, 173, 15, 0.877);
     .advBannerTitle {
-      background-color: rgba(36, 153, 255, 0.192);
       height: 100%;
       width: 100%;
       position: absolute;
@@ -85,13 +83,13 @@
 //eventCardCategory
 .eventContainer {
   max-height: 250px;
-  width: 100%;
+
   position: relative;
   overflow: hidden;
   margin: 8px;
   cursor: pointer;
   display: flex;
-  width: auto;
+
   .categoryInf {
     background-color: rgba(34, 34, 65, 0.363);
     position: absolute;

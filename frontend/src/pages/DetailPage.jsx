@@ -1,5 +1,5 @@
 //lokasyon(haritada gösterecek),tarih,etkinlik fotoğrafları tıklanan lokasyondaki etkinlikleri listele
-import React from "react";
+import React, { useState } from "react";
 import { useContext } from "react";
 import { IoLocationOutline, IoTodayOutline } from "react-icons/io5";
 import { GoClock, GoShareAndroid } from "react-icons/go";
@@ -10,10 +10,14 @@ import Filter from "../components/Filter";
 import { GlobalContext } from "../Context/GlobalState";
 import moment from "moment";
 import "moment/locale/tr";
+import EventMap from "../components/EventMap";
+import { Button } from "antd";
+
 moment.locale("tr");
 const DetailPage = () => {
   const { data } = useContext(GlobalContext);
   const { id } = useParams();
+  const [show, setShow] = useState(false);
   // console.log(id);
   const postDetail = data.filter((post) => post.id == id);
   //  console.log(postDetail)
@@ -79,8 +83,13 @@ const DetailPage = () => {
                   <span>{post?.sum} </span>
                 </div>
                 <div className="s2  ">
+                  {post.actors.length > 0 ? (
+                    <span className="s2">Oyuncular:</span>
+                  ) : (
+                    ""
+                  )}
                   {post?.actors.map((actor) => (
-                    <span className="d-inline-block mx-1" key={actor}>
+                    <span className="d-inline-block mx-1 f" key={actor}>
                       {actor}
                     </span>
                   ))}
@@ -102,7 +111,7 @@ const DetailPage = () => {
               <div class="dropdown">
                 <button
                   type="button"
-                  class="btn dropdown-toggle"
+                  class="btn btn-secondary btn-sm dropdown-toggle "
                   data-bs-toggle="dropdown"
                 >
                   Bilet Al
@@ -110,9 +119,9 @@ const DetailPage = () => {
                 <ul class="dropdown-menu">
                   {post.rate.map((item) => (
                     <li key={item}>
-                      <a class="dropdown-item" href="#">
+                      <Link class="dropdown-item" href="#">
                         {Object.keys(item)} : {Object.values(item)}
-                      </a>
+                      </Link>
                     </li>
                   ))}
                 </ul>
@@ -121,6 +130,10 @@ const DetailPage = () => {
           </div>
         </div>
       ))}
+      <Button className="  btn-secondary  " onClick={() => setShow(!show)}>
+        Haritada Göster
+      </Button>
+      {show ? <EventMap></EventMap> : ""}
       <div className="notice">
         <h2>Etkinlik Kuralları</h2>
         <span>-18 yaş sınırı vardır.</span>
