@@ -1,6 +1,6 @@
 import React, { useState, useContext, useEffect, createContext } from "react";
 
-const URL = "http://localhost:3000/posts";
+const URL = "https://ticketapp-6qbo.onrender.com/posts";
 
 export const GlobalContext = createContext();
 export const GlobalProvider = ({ children }) => {
